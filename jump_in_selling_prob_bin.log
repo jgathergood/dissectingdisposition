@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  1 MAY 2020 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  1 MAY 2020 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,7 +685,7 @@ Overfull \hbox (3.6908pt too wide) in paragraph at lines 108--109
 st pan-els with the dif-fer-ence
  []
 
-<figures/barc_schedule_daily_by_days_less50_3.pdf, id=31, 1084.05pt x 505.89pt>
+<figures/barc_schedule_daily_by_days_less50_3.pdf, id=30, 1084.05pt x 505.89pt>
 
 File: figures/barc_schedule_daily_by_days_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_by_days_less50_3.pdf>
@@ -1264,7 +1264,7 @@ ts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
 ublic/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1
 095.pfb>
-Output written on jump_in_selling_prob_bin.pdf (32 pages, 2970536 bytes).
+Output written on jump_in_selling_prob_bin.pdf (32 pages, 2971016 bytes).
 PDF statistics:
  515 PDF objects out of 1000 (max. 8388607)
  368 compressed objects within 4 object streams

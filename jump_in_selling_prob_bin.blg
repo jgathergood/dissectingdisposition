@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: jump_in_selling_prob_bin.aux
+The style file: plainnat.bst
+Database file #1: local_refs2new.bib
+You've used 7 entries,
+            2773 wiz_defined-function locations,
+            649 strings with 5968 characters,
+and the built_in function-call counts, 3411 in all, are:
+= -- 327
+> -- 143
+< -- 7
++ -- 49
+- -- 42
+* -- 275
+:= -- 504
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 35
+chr.to.int$ -- 7
+cite$ -- 14
+duplicate$ -- 157
+empty$ -- 303
+format.name$ -- 55
+if$ -- 723
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 43
+num.names$ -- 28
+pop$ -- 62
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 120
+stack$ -- 0
+substring$ -- 216
+swap$ -- 19
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 77
+warning$ -- 0
+while$ -- 36
+width$ -- 0
+write$ -- 100

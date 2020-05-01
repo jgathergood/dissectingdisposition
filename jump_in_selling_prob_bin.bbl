@@ -1,0 +1,50 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barber and Odean(2013)]{BarberOdean13}
+Brad~M Barber and Terrance Odean.
+\newblock The behavior of individual investors.
+\newblock In \emph{Handbook of the Economics of Finance}, volume~2, pages
+  1533--1570. Elsevier, 2013.
+
+\bibitem[Ben-David and Hirshleifer(2012)]{BenDavidHirshleifer12}
+Itzhak Ben-David and David Hirshleifer.
+\newblock Are investors really reluctant to realize their losses? trading
+  responses to past returns and the disposition effect.
+\newblock \emph{The Review of Financial Studies}, 25\penalty0 (8):\penalty0
+  2485--2532, 2012.
+
+\bibitem[Grinblatt and Keloharju(2001)]{GrinblattKeloharju01}
+Mark Grinblatt and Matti Keloharju.
+\newblock What makes investors trade?
+\newblock \emph{J. Financ.}, 56\penalty0 (2):\penalty0 589--616, 2001.
+
+\bibitem[Grinblatt et~al.(2012)Grinblatt, Keloharju, and
+  Linnainmaa]{GrinblattKeloharjuLinnainmaa12}
+Mark Grinblatt, Matti Keloharju, and Juhani~T Linnainmaa.
+\newblock Iq, trading behavior, and performance.
+\newblock \emph{Journal of Financial Economics}, 104\penalty0 (2):\penalty0
+  339--362, 2012.
+
+\bibitem[Kaustia(2010)]{Kaustia10}
+M.~Kaustia.
+\newblock Prospect theory and the disposition effect.
+\newblock \emph{J. Financ. Quant. Anal.}, 45\penalty0 (3):\penalty0 791--812,
+  2010.
+
+\bibitem[Odean(1998)]{Odean98}
+T.~Odean.
+\newblock Are investors reluctant to realize their losses?
+\newblock \emph{J. Financ.}, 53\penalty0 (5):\penalty0 1775--1798, 1998.
+
+\bibitem[Seru et~al.(2009)Seru, Shumway, and Stoffman]{SeruShumwayStoffman09}
+Amit Seru, Tyler Shumway, and Noah Stoffman.
+\newblock Learning by trading.
+\newblock \emph{The Review of Financial Studies}, 23\penalty0 (2):\penalty0
+  705--739, 2009.
+
+\end{thebibliography}

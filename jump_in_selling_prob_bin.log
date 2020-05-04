@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  1 MAY 2020 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  4 MAY 2020 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,46 +668,51 @@ Overfull \hbox (32.48334pt too wide) in paragraph at lines 79--94
  []
 
 [2 <./figures/illustration.pdf>]
-Overfull \hbox (9.32753pt too wide) in paragraph at lines 102--102
+Overfull \hbox (13.72926pt too wide) in paragraph at lines 101--102
+\T1/cmr/m/n/10.95 In this sec-tion, we use stock trad-ing data pro-vided by a l
+arge main-stream stock-bro-ker
+ []
+
+
+Overfull \hbox (9.32753pt too wide) in paragraph at lines 109--109
 []\T1/cmr/bx/n/12 The Ef-fect of Weighted-Averaging across Stocks with Dif-fer-
 ent
  []
 
 
-Overfull \hbox (10.60056pt too wide) in paragraph at lines 104--105
+Overfull \hbox (10.60056pt too wide) in paragraph at lines 111--112
 \T1/cmr/m/n/10.95 pe-riod no more than 50 days, we il-lus-trate the ef-fect of 
 av-er-ag-ing sell-ing prob-a-bil-i-ties
  []
 
-
-Overfull \hbox (3.6908pt too wide) in paragraph at lines 108--109
+[3]
+Overfull \hbox (3.6908pt too wide) in paragraph at lines 115--116
 \T1/cmr/m/n/10.95 prob-a-bil-ity be-tween the left-most and the sec-ond left-mo
 st pan-els with the dif-fer-ence
  []
 
-<figures/barc_schedule_daily_by_days_less50_3.pdf, id=30, 1084.05pt x 505.89pt>
+<figures/barc_schedule_daily_by_days_less50_3.pdf, id=35, 1084.05pt x 505.89pt>
 
 File: figures/barc_schedule_daily_by_days_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_by_days_less50_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_daily_by_days_less50_3.pdf  used
- on input line 112.
+ on input line 119.
 (pdftex.def)             Requested size: 380.69788pt x 177.65852pt.
-[3]
-<figures/barc_hist_return_daily_less50_3.pdf, id=36, 1084.05pt x 505.89pt>
+[4 <./figures/barc_schedule_daily_by_days_less50_3.pdf>]
+<figures/barc_hist_return_daily_less50_3.pdf, id=46, 1084.05pt x 505.89pt>
 File: figures/barc_hist_return_daily_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_hist_return_daily_less50_3.pdf>
 Package pdftex.def Info: figures/barc_hist_return_daily_less50_3.pdf  used on i
-nput line 121.
+nput line 128.
 (pdftex.def)             Requested size: 380.69788pt x 177.65852pt.
- [4 <./figures/barc_schedule_daily_by_days_less50_3.pdf>]
 <figures/barc_schedule_daily_less50_3.pdf, id=47, 1084.05pt x 505.89pt>
 File: figures/barc_schedule_daily_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_less50_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_daily_less50_3.pdf  used on inpu
-t line 133.
+t line 140.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Overfull \hbox (14.11215pt too wide) in paragraph at lines 139--141
+Overfull \hbox (14.11215pt too wide) in paragraph at lines 146--148
 \T1/cmr/m/n/10.95 pe-riod no more than 50 days for il-lus-tra-tion pur-pose. If
  we do the weighted-averaging
  []
@@ -718,556 +723,417 @@ ly_less50_3.pdf>]
 File: figures/barc_schedule_daily_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_daily_NG1_NL1_3.pdf  used on inp
-ut line 148.
+ut line 155.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
  []
 
 [6 <./figures/barc_schedule_daily_NG1_NL1_3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
+
+ []
+
 <figures/barc_port_sell_NG1_NL1_3.pdf, id=75, 1084.05pt x 505.89pt>
 File: figures/barc_port_sell_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_port_sell_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_port_sell_NG1_NL1_3.pdf  used on input li
-ne 178.
+ne 185.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[7 <./figures/barc_port_sell_NG1_NL1_3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-[7 <./figures/barc_port_sell_NG1_NL1_3.pdf>]
 <figures/barc_schedule_sell_day_NG1_NL1_3.pdf, id=86, 1084.05pt x 505.89pt>
 File: figures/barc_schedule_sell_day_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_sell_day_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_sell_day_NG1_NL1_3.pdf  used on 
-input line 201.
+input line 208.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Overfull \hbox (7.72682pt too wide) in paragraph at lines 206--207
+Overfull \hbox (7.72682pt too wide) in paragraph at lines 213--214
 \T1/cmr/m/n/10.95 stock $\OML/cmm/m/it/10.95 i$ \T1/cmr/m/n/10.95 be-ing sold (
 Fig-ure 5[]) di-vided by the op-po-sitely asym-met-ric in-verse V-shaped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--213
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
-<figures/barc_other_sold_daily_NG1_NL1_3.pdf, id=87, 1084.05pt x 505.89pt>
+[8 <./figures/barc_schedule_sell_day_NG1_NL1_3.pdf>]
+<figures/barc_other_sold_daily_NG1_NL1_3.pdf, id=99, 1084.05pt x 505.89pt>
 File: figures/barc_other_sold_daily_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_other_sold_daily_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_other_sold_daily_NG1_NL1_3.pdf  used on i
-nput line 234.
+nput line 241.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-[8 <./figures/barc_schedule_sell_day_NG1_NL1_3.pdf>]
-<figures/barc_holding_days_i_j_NG1_NL1.pdf, id=104, 578.16pt x 578.16pt>
+<figures/barc_holding_days_i_j_NG1_NL1.pdf, id=100, 578.16pt x 578.16pt>
 File: figures/barc_holding_days_i_j_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_i_j_NG1_NL1.pdf>
 Package pdftex.def Info: figures/barc_holding_days_i_j_NG1_NL1.pdf  used on inp
-ut line 249.
+ut line 256.
 (pdftex.def)             Requested size: 190.34894pt x 190.34346pt.
  [9 <./figures/barc_other_sold_daily_NG1_NL1_3.pdf>]
 <figures/barc_R_i_abs_R_j_NG1_NL1.pdf, id=114, 1084.05pt x 505.89pt>
 File: figures/barc_R_i_abs_R_j_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_R_i_abs_R_j_NG1_NL1.pdf>
 Package pdftex.def Info: figures/barc_R_i_abs_R_j_NG1_NL1.pdf  used on input li
-ne 262.
+ne 269.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
  [10 <./figures/barc_holding_days_i_j_NG1_NL1.pdf> <./figures/barc_R_i_abs_R_j_
 NG1_NL1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
 <figures/sim_R_i_abs_R_j.pdf, id=132, 1084.05pt x 505.89pt>
 File: figures/sim_R_i_abs_R_j.pdf Graphic file (type pdf)
 <use figures/sim_R_i_abs_R_j.pdf>
-Package pdftex.def Info: figures/sim_R_i_abs_R_j.pdf  used on input line 277.
+Package pdftex.def Info: figures/sim_R_i_abs_R_j.pdf  used on input line 284.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
 
-Overfull \hbox (48.7267pt too wide) in paragraph at lines 291--293
+Overfull \hbox (48.7267pt too wide) in paragraph at lines 298--300
 \T1/cmr/m/n/10.95 rea-son for the op-po-sitely asym-met-ric in-verse V-shape in
  $\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 stock []i []is [
 ]in []a []sell[]day []portfolio\OT1/cmr/m/n/10.95 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
 [11 <./figures/sim_R_i_abs_R_j.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 297--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 314--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--317
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--322
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
 
  []
 
 
-Overfull \hbox (23.58917pt too wide) in paragraph at lines 330--331
+Overfull \hbox (23.58917pt too wide) in paragraph at lines 337--338
 []\T1/cmr/m/n/10.95 While "hold-ing pe-riod", "ab-so-lute re-turn since pur-cha
 se", and "sell-ing prob-a-bil-ity"
  []
 
 [12]
-Overfull \hbox (0.91777pt too wide) in paragraph at lines 333--334
+Overfull \hbox (0.91777pt too wide) in paragraph at lines 340--341
 \T1/cmr/m/n/10.95 pe-riod in-creases, they pay less at-ten-tion with a less sen
 -si-tiv-ity to price move-ments.
  []
 
 
-Overfull \hbox (1.70433pt too wide) in paragraph at lines 333--334
+Overfull \hbox (1.70433pt too wide) in paragraph at lines 340--341
 \T1/cmr/m/n/10.95 In ad-di-tion, due to the os-trich ef-fect, the sen-si-tiv-it
 y of at-ten-tion to price move-ment
  []
 
 
-Overfull \hbox (23.16283pt too wide) in paragraph at lines 335--335
+Overfull \hbox (23.16283pt too wide) in paragraph at lines 342--342
 []\T1/cmr/bx/n/14.4 Details of Di-vi-sion of Two Asym-met-ric In-verse V-shapes
  
  []
 
 
-Overfull \hbox (43.11015pt too wide) in paragraph at lines 337--338
-\T1/cmr/m/n/10.95 asym-met-ric in-verse V-shaped. Sec-tion 3.2[] showed why $\O
+Overfull \hbox (43.11015pt too wide) in paragraph at lines 344--345
+\T1/cmr/m/n/10.95 asym-met-ric in-verse V-shaped. Sec-tion 3.3[] showed why $\O
 ML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 stock []i []is []in 
 []a []sell[]day []portfolio\OT1/cmr/m/n/10.95 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--355
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--362
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 376--381
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 383--389
+Underfull \hbox (badness 10000) in paragraph at lines 393--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--399
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--405
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--410
+Underfull \hbox (badness 10000) in paragraph at lines 416--420
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--426
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
-
- []
-
 <figures/illustration_color.pdf, id=153, 1084.05pt x 505.89pt>
 File: figures/illustration_color.pdf Graphic file (type pdf)
 <use figures/illustration_color.pdf>
-Package pdftex.def Info: figures/illustration_color.pdf  used on input line 422
+Package pdftex.def Info: figures/illustration_color.pdf  used on input line 432
 .
 (pdftex.def)             Requested size: 342.62576pt x 159.88881pt.
 <figures/illustration_together.pdf, id=154, 794.97pt x 433.62pt>
 File: figures/illustration_together.pdf Graphic file (type pdf)
 <use figures/illustration_together.pdf>
 Package pdftex.def Info: figures/illustration_together.pdf  used on input line 
-431.
+441.
 (pdftex.def)             Requested size: 532.9747pt x 290.72238pt.
 
-Overfull \hbox (97.79294pt too wide) in paragraph at lines 430--432
+Overfull \hbox (97.79294pt too wide) in paragraph at lines 440--442
  []|  [] 
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 432--432
+Underfull \hbox (badness 1635) in paragraph at lines 442--442
 []\T1/cmr/m/n/10.95 Figure 13: \T1/cmr/m/n/10 Il-lus-tra-tion: Di-vi-sion of tw
 o asym-met-ric in-verse V-shaped curve
  []
 
 [15 <./figures/illustration_color.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 437--439
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
 
  []
 
 [16 <./figures/illustration_together.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 449--454
+Underfull \hbox (badness 10000) in paragraph at lines 459--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--458
+Underfull \hbox (badness 10000) in paragraph at lines 465--468
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--461
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--464
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
 
  []
+
+
+LaTeX Warning: Reference `' on page 17 undefined on input line 483.
 
 [17]
-Overfull \hbox (46.72346pt too wide) in paragraph at lines 474--474
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+[18] [19]
+Overfull \hbox (46.72346pt too wide) in paragraph at lines 528--528
 []\T1/cmr/bx/n/14.4 Literature Re-view by Ben-David and Hir-sh-leifer
  []
 
 
-Overfull \hbox (77.64066pt too wide) in paragraph at lines 489--521
+Overfull \hbox (77.64066pt too wide) in paragraph at lines 543--575
  [][] 
  []
 
-<figures/barc_holding_days_daily_3.pdf, id=176, 1084.05pt x 505.89pt>
+<figures/barc_holding_days_daily_3.pdf, id=183, 1084.05pt x 505.89pt>
 File: figures/barc_holding_days_daily_3.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_daily_3.pdf>
 Package pdftex.def Info: figures/barc_holding_days_daily_3.pdf  used on input l
-ine 528.
+ine 582.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-[18
+[20
 
 ]
-<figures/return_dist.pdf, id=180, 1734.48pt x 578.16pt>
+<figures/return_dist.pdf, id=187, 1734.48pt x 578.16pt>
 File: figures/return_dist.pdf Graphic file (type pdf)
 <use figures/return_dist.pdf>
-Package pdftex.def Info: figures/return_dist.pdf  used on input line 544.
+Package pdftex.def Info: figures/return_dist.pdf  used on input line 598.
 (pdftex.def)             Requested size: 380.69788pt x 126.89565pt.
- [19 <./figures/barc_holding_days_daily_3.pdf> <./figures/return_dist.pdf>]
-Overfull \hbox (6.22153pt too wide) in paragraph at lines 550--550
+ [21 <./figures/barc_holding_days_daily_3.pdf> <./figures/return_dist.pdf>]
+Overfull \hbox (6.22153pt too wide) in paragraph at lines 604--604
 []\T1/cmr/bx/n/14.4 More De-tails of Con-di-tion-ing on Sell-Days 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--580
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 
  []
 
-<figures/barc_ABC_NG1_NL1_3.pdf, id=196, 1300.86pt x 505.89pt>
+<figures/barc_ABC_NG1_NL1_3.pdf, id=202, 1300.86pt x 505.89pt>
 File: figures/barc_ABC_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_ABC_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 611
+Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 665
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
-[20
-
-]
-<figures/barc_B12_NG1_NL1_3.pdf, id=200, 1300.86pt x 505.89pt>
-File: figures/barc_B12_NG1_NL1_3.pdf Graphic file (type pdf)
-<use figures/barc_B12_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 618
-.
-(pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
- [21 <./figures/barc_ABC_NG1_NL1_3.pdf> <./figures/barc_B12_NG1_NL1_3.pdf>]
-<figures/barc_prop_holding_days.pdf, id=217, 1084.05pt x 505.89pt>
-File: figures/barc_prop_holding_days.pdf Graphic file (type pdf)
-<use figures/barc_prop_holding_days.pdf>
-Package pdftex.def Info: figures/barc_prop_holding_days.pdf  used on input line
- 630.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_prop_holding_days_around_zero.pdf, id=218, 1084.05pt x 505.89pt>
-File: figures/barc_prop_holding_days_around_zero.pdf Graphic file (type pdf)
-<use figures/barc_prop_holding_days_around_zero.pdf>
-Package pdftex.def Info: figures/barc_prop_holding_days_around_zero.pdf  used o
-n input line 637.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_schedule_daily_all_3.pdf, id=219, 1084.05pt x 505.89pt>
-File: figures/barc_schedule_daily_all_3.pdf Graphic file (type pdf)
-<use figures/barc_schedule_daily_all_3.pdf>
-Package pdftex.def Info: figures/barc_schedule_daily_all_3.pdf  used on input l
-ine 653.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_port_sell_3.pdf, id=220, 1084.05pt x 505.89pt>
-File: figures/barc_port_sell_3.pdf Graphic file (type pdf)
-<use figures/barc_port_sell_3.pdf>
-Package pdftex.def Info: figures/barc_port_sell_3.pdf  used on input line 661.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 [22
 
- <./figures/barc_prop_holding_days.pdf> <./figures/barc_prop_holding_days_aroun
-d_zero.pdf> <./figures/barc_schedule_daily_all_3.pdf>]
-<figures/barc_schedule_sell_day_3.pdf, id=240, 1084.05pt x 505.89pt>
-File: figures/barc_schedule_sell_day_3.pdf Graphic file (type pdf)
-<use figures/barc_schedule_sell_day_3.pdf>
-Package pdftex.def Info: figures/barc_schedule_sell_day_3.pdf  used on input li
-ne 670.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_schedule_sell_day_N2_3.pdf, id=241, 1084.05pt x 505.89pt>
-File: figures/barc_schedule_sell_day_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_schedule_sell_day_N2_3.pdf>
-Package pdftex.def Info: figures/barc_schedule_sell_day_N2_3.pdf  used on input
- line 677.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_num_stocks_daily_3.pdf, id=242, 1084.05pt x 505.89pt>
-File: figures/barc_num_stocks_daily_3.pdf Graphic file (type pdf)
-<use figures/barc_num_stocks_daily_3.pdf>
-Package pdftex.def Info: figures/barc_num_stocks_daily_3.pdf  used on input lin
-e 685.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
- [23 <./figures/barc_port_sell_3.pdf> <./figures/barc_schedule_sell_day_3.pdf> 
-<./figures/barc_schedule_sell_day_N2_3.pdf>] [24 <./figures/barc_num_stocks_dai
-ly_3.pdf>]
-<figures/barc_num_stocks_daily_N2_3.pdf, id=273, 1084.05pt x 505.89pt>
-File: figures/barc_num_stocks_daily_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_num_stocks_daily_N2_3.pdf>
-Package pdftex.def Info: figures/barc_num_stocks_daily_N2_3.pdf  used on input 
-line 694.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_NG_daily_N2_3.pdf, id=274, 1084.05pt x 505.89pt>
-File: figures/barc_NG_daily_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_NG_daily_N2_3.pdf>
-Package pdftex.def Info: figures/barc_NG_daily_N2_3.pdf  used on input line 701
+]
+<figures/barc_B12_NG1_NL1_3.pdf, id=206, 1300.86pt x 505.89pt>
+File: figures/barc_B12_NG1_NL1_3.pdf Graphic file (type pdf)
+<use figures/barc_B12_NG1_NL1_3.pdf>
+Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 672
 .
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_NL_daily_N2_3.pdf, id=275, 1084.05pt x 505.89pt>
-File: figures/barc_NL_daily_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_NL_daily_N2_3.pdf>
-Package pdftex.def Info: figures/barc_NL_daily_N2_3.pdf  used on input line 708
-.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
- [25 <./figures/barc_num_stocks_daily_N2_3.pdf> <./figures/barc_NG_daily_N2_3.p
-df> <./figures/barc_NL_daily_N2_3.pdf>]
-<figures/barc_num_stocks_daily_NG1_NL1_3.pdf, id=298, 1084.05pt x 505.89pt>
-File: figures/barc_num_stocks_daily_NG1_NL1_3.pdf Graphic file (type pdf)
-<use figures/barc_num_stocks_daily_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_num_stocks_daily_NG1_NL1_3.pdf  used on i
-nput line 717.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_NG_daily_NG1_NL1_3.pdf, id=299, 1084.05pt x 505.89pt>
-File: figures/barc_NG_daily_NG1_NL1_3.pdf Graphic file (type pdf)
-<use figures/barc_NG_daily_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_NG_daily_NG1_NL1_3.pdf  used on input lin
-e 725.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_NL_daily_NG1_NL1_3.pdf, id=300, 1084.05pt x 505.89pt>
-File: figures/barc_NL_daily_NG1_NL1_3.pdf Graphic file (type pdf)
-<use figures/barc_NL_daily_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_NL_daily_NG1_NL1_3.pdf  used on input lin
-e 732.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_schedule_daily_N2_3.pdf, id=301, 1084.05pt x 505.89pt>
-File: figures/barc_schedule_daily_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_schedule_daily_N2_3.pdf>
-Package pdftex.def Info: figures/barc_schedule_daily_N2_3.pdf  used on input li
-ne 740.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
- [26 <./figures/barc_num_stocks_daily_NG1_NL1_3.pdf> <./figures/barc_NG_daily_N
-G1_NL1_3.pdf> <./figures/barc_NL_daily_NG1_NL1_3.pdf>]
-<figures/barc_other_sold_daily_3.pdf, id=324, 1084.05pt x 505.89pt>
-File: figures/barc_other_sold_daily_3.pdf Graphic file (type pdf)
-<use figures/barc_other_sold_daily_3.pdf>
-Package pdftex.def Info: figures/barc_other_sold_daily_3.pdf  used on input lin
-e 747.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_holding_days_daily_N2_3.pdf, id=325, 1084.05pt x 505.89pt>
-File: figures/barc_holding_days_daily_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_holding_days_daily_N2_3.pdf>
-Package pdftex.def Info: figures/barc_holding_days_daily_N2_3.pdf  used on inpu
-t line 756.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_holding_days_others_daily_N2_3.pdf, id=326, 1084.05pt x 505.89pt>
+(pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
+ [23 <./figures/barc_ABC_NG1_NL1_3.pdf> <./figures/barc_B12_NG1_NL1_3.pdf>] (./
+jump_in_selling_prob_bin.bbl) [24] (./jump_in_selling_prob_bin.aux)
 
-File: figures/barc_holding_days_others_daily_N2_3.pdf Graphic file (type pdf)
-<use figures/barc_holding_days_others_daily_N2_3.pdf>
-Package pdftex.def Info: figures/barc_holding_days_others_daily_N2_3.pdf  used 
-on input line 763.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
- [27 <./figures/barc_schedule_daily_N2_3.pdf> <./figures/barc_other_sold_daily_
-3.pdf> <./figures/barc_holding_days_daily_N2_3.pdf>]
-<figures/barc_schedule_on_holding_days.pdf, id=348, 1084.05pt x 505.89pt>
-File: figures/barc_schedule_on_holding_days.pdf Graphic file (type pdf)
-<use figures/barc_schedule_on_holding_days.pdf>
-Package pdftex.def Info: figures/barc_schedule_on_holding_days.pdf  used on inp
-ut line 771.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_schedule_on_holding_days_log.pdf, id=349, 1084.05pt x 505.89pt>
-File: figures/barc_schedule_on_holding_days_log.pdf Graphic file (type pdf)
-<use figures/barc_schedule_on_holding_days_log.pdf>
-Package pdftex.def Info: figures/barc_schedule_on_holding_days_log.pdf  used on
- input line 778.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_holding_days_i_j.pdf, id=350, 578.16pt x 578.16pt>
-File: figures/barc_holding_days_i_j.pdf Graphic file (type pdf)
-<use figures/barc_holding_days_i_j.pdf>
-Package pdftex.def Info: figures/barc_holding_days_i_j.pdf  used on input line 
-786.
-(pdftex.def)             Requested size: 228.42104pt x 228.41922pt.
- [28 <./figures/barc_holding_days_others_daily_N2_3.pdf> <./figures/barc_schedu
-le_on_holding_days.pdf> <./figures/barc_schedule_on_holding_days_log.pdf>]
-<figures/barc_R_i_R_j.pdf, id=376, 578.16pt x 578.16pt>
-File: figures/barc_R_i_R_j.pdf Graphic file (type pdf)
-<use figures/barc_R_i_R_j.pdf>
-Package pdftex.def Info: figures/barc_R_i_R_j.pdf  used on input line 794.
-(pdftex.def)             Requested size: 228.42104pt x 228.41922pt.
-<figures/barc_R_i_abs_R_j.pdf, id=377, 1084.05pt x 505.89pt>
-File: figures/barc_R_i_abs_R_j.pdf Graphic file (type pdf)
-<use figures/barc_R_i_abs_R_j.pdf>
-Package pdftex.def Info: figures/barc_R_i_abs_R_j.pdf  used on input line 801.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
- [29 <./figures/barc_holding_days_i_j.pdf> <./figures/barc_R_i_R_j.pdf>]
-<figures/barc_buy_days_num_stocks.pdf, id=397, 1084.05pt x 505.89pt>
-File: figures/barc_buy_days_num_stocks.pdf Graphic file (type pdf)
-<use figures/barc_buy_days_num_stocks.pdf>
-Package pdftex.def Info: figures/barc_buy_days_num_stocks.pdf  used on input li
-ne 811.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-<figures/barc_prop_buy_fr_first_buy.pdf, id=398, 578.16pt x 578.16pt>
-File: figures/barc_prop_buy_fr_first_buy.pdf Graphic file (type pdf)
-<use figures/barc_prop_buy_fr_first_buy.pdf>
-Package pdftex.def Info: figures/barc_prop_buy_fr_first_buy.pdf  used on input 
-line 819.
-(pdftex.def)             Requested size: 228.42104pt x 228.41922pt.
- [30 <./figures/barc_R_i_abs_R_j.pdf> <./figures/barc_buy_days_num_stocks.pdf>]
-<figures/barc_num_sold_stocks_given_i_sold_sell_day_NG1_NL1_3.pdf, id=414, 1084
-.05pt x 505.89pt>
-File: figures/barc_num_sold_stocks_given_i_sold_sell_day_NG1_NL1_3.pdf Graphic 
-file (type pdf)
-<use figures/barc_num_sold_stocks_given_i_sold_sell_day_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_num_sold_stocks_given_i_sold_sell_day_NG1
-_NL1_3.pdf  used on input line 826.
-(pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
- [31 <./figures/barc_prop_buy_fr_first_buy.pdf> <./figures/barc_num_sold_stocks
-_given_i_sold_sell_day_NG1_NL1_3.pdf>] (./jump_in_selling_prob_bin.bbl) [32] (.
-/jump_in_selling_prob_bin.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 14272 strings out of 492982
- 277543 string characters out of 6136225
- 316531 words of memory out of 5000000
- 17500 multiletter control sequences out of 15000+600000
+ 14123 strings out of 492982
+ 271398 string characters out of 6136225
+ 316261 words of memory out of 5000000
+ 17376 multiletter control sequences out of 15000+600000
  17794 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,54p,1289b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-
-super/cm-super-t1.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmex10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
-public/cm-super/sfbx1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-
-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx
-1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><
-c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1
-095.pfb>
-Output written on jump_in_selling_prob_bin.pdf (32 pages, 2971047 bytes).
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm0900.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1
+095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c
+:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on jump_in_selling_prob_bin.pdf (24 pages, 1725003 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
+ 307 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

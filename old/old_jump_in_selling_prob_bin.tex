@@ -101,7 +101,7 @@ We will show that a step-like selling schedule on sell-days ($P^{sell\mbox{-}day
 In this section, we use stock trading data provided by a large mainstream stockbroker in the UK, which include transaction histories of 182,569 accounts for the period between April 2012 and June 2016. 
 
 Because purchase prices of stocks bought before the beginning of the data period are unknown, accounts opened before the start of the data period were excluded. Multiple intra-day trades conducted on the same account on the same stock were aggregated with quantity weighted prices. Then, we reconstructed daily portfolio data in which each position is recorded everyday from a first purchase date to a liquidation date. Positions opened on the day and short positions were excluded.
-The return since purchase was calculated by using a quantity weighted average purchase price of the stock for a given account and a closing price of the stock as of one day prior to the date. Stocks' closing prices were retrieved from the Datastream.\footnote{For stocks' identification in data-merging, we used Stock Exchange Daily Official List (SEDOL) numbers which is used for clearing in the United Kingdom and Ireland.} Commissions and dividends were not considered in the calculation of returns since purchase. Positions having missing variables in either the price data or the transaction data were excluded from the daily portfolio sample.
+The return since purchase was calculated by using a quantity weighted average purchase price of the stock for a given account and a closing price of the stock as of one day prior to the date. Stocks' closing prices were retrieved from the Datastream.\footnote{As a stock identification for data-merging, we used Stock Exchange Daily Official List (SEDOL) numbers which is used for clearing in the United Kingdom and Ireland.} Commissions and dividends were not considered in the calculation of returns since purchase. Positions having missing variables in either the price data or the transaction data were excluded from the daily portfolio sample.
 	
 As a consequence, the daily portfolio sample includes 8,573,731 account-days for 20,687 accounts (23,687,688 account-stock-days).
 
@@ -350,34 +350,31 @@ In Section \ref{section:division_two_lines}, we review how a division of two lin
 Consider two lines: $y_1=a_1+b_1x$ and $y_2=a_2+b_2x$.\\
 
 \noindent
-A division of the two lines is:\\
-$y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{a_1+b_1x}{a_2+b_2x}=\frac{b_1}{b_2}+\frac{a_1-\frac{a_2 b_1}{b_2}}{a_2+b_2x}$\\
+A division of the two lines is: $y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{y_1}{y_2}=\frac{a_1+b_1x}{a_2+b_2x}$.\\
 
 \noindent
-%A division of the two lines is: $y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{y_1}{y_2}=\frac{a_1+b_1x}{a_2+b_2x}$.\\
+In the long division format it is: \LongDiv{b_2x+a_2}{b_1x+a_1}\\
 
-%\noindent
-%In the long division format it is: \LongDiv{b_2x+a_2}{b_1x+a_1}\\
-
-%\noindent
-%Proceeding a first step in the long division leads to:\\
-%$y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{a_1+b_1x}{a_2+b_2x}=\frac{b_1}{b_2}+\frac{a_1-\frac{a_2 %b_1}{b_2}}{a_2+b_2x}$\\
-%($\frac{b_1}{b_2}$ and $a_1{\scriptstyle -}\frac{a_2 b_1}{b_2}$ can be considered as a quotient and a remainder, respectively )\\
+\noindent
+Proceeding a first step in the long division leads to:\\
+$y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{a_1+b_1x}{a_2+b_2x}=\frac{b_1}{b_2}+\frac{a_1-\frac{a_2 b_1}{b_2}}{a_2+b_2x}$\\
+($\frac{b_1}{b_2}$ and $a_1{\scriptstyle -}\frac{a_2 b_1}{b_2}$ can be considered as a quotient and a remainder, respectively )\\
 
 \noindent
 This means that $y_3$ is a rectangular hyperbola with asymptotes of $x=-\frac{a_2}{b_2}$ (vertical line) and $y=\frac{b_1}{b_2}$ (horizontal line). \\
 
 \noindent
-Let $(x_c, y_c)$ denote the center of the rectangular hyperbola: $(x_c, y_c) \overset{\underset{\mathrm{def}}{}}{=} (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$.\\
-\noindent
-Also, let $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$. \\
-Then, $y_3= \frac{b_1}{b_2}+\frac{A}{\frac{a_2}{b_2}+x}$.\\
+Let $(x_c, y_c)$ denote the center of the rectangular hyperbola. \\
+$(x_c, y_c) \overset{\underset{\mathrm{def}}{}}{=} (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$.\\
 
 \noindent
-This means that the sign of $A$ determines the location of the hyperbola.
-That is:\\
+Also, let $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$. \\
+Then, $y_3= \frac{b_1}{b_2}+\frac{A}{\frac{a_2}{b_2}+x}$\\
+
+\noindent
 The vertices are $(x_c+\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c-\sqrt{A})$. for $A>0$ and\\
 The vertices are $(x_c-\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c+\sqrt{A})$. for $A<0$.\footnote{The distance between the center and the vertices is $\sqrt{2A}$. The linear eccentricity is $2\sqrt{A}$ and the eccentricity is $\sqrt{2}$. The radius of curvature at the vertices is $\sqrt{2A}$. Refer https://en.wikipedia.org/wiki/Hyperbola.}\\
+That is, the sign of $A$ determines the location of the hyperbola.
 
 %\noindent
 %The first term, $\frac{b_1}{b_2}$, represents a vertical shift of the hyperbola.\\
@@ -475,55 +472,11 @@ Similarly, Condition 2 seems to be met in an arbitrary range of positive $x$ (Co
 \noindent
 Also, as seen in Figure \ref{figure:prop_sell_day_NG1NL1}, Condition 3 seems to be met. This leads to a flatter line in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
 
-\section{Simulation}
-
-\subsection{Method for the Simulation}
-Finally, we replicate the empirical findings with simulated data where stock prices follow the geometric Brownian motion and investors' selling decisions are determined by the return since purchase and the number of days since purchase, together with 6 model free parameters.
-
-In the simulation, each day of 5 years, xxx investors construct an initial portfolio consisting of 5 stocks (i.e., $252\times5=1,260$ days). Thus we have $1,260\times xxxx$ investors in the simulated data, each of whom buy 5 stocks on an initial purchase day spanning from Day-1 to Day-1260. The stock prices follows the geometric Brownian motion with the drift parameter ($\mu$) and the volatility parameter ($\sigma$). We set $\mu=0$ and draw $\sigma$ from an approximated distribution of annualized standard deviations (i.e., volatility) of daily returns taken from the empirical data, shown in Figure \ref{}.\footnote{We assume zero correlation in price movement across stocks.}
-
-Investors' selling decisions are determined by the model introduced below. We assume no additional purchase after the initial portfolio is constructed. Then, we extract investor-days where at least one gain and one loss are in the portfolio, and compute the selling schedule on return in a daily portfolio sample and that in a sell-day portfolio sample.
-
-
-\subsection{Model of Selling Decisions}
-We introduce a model of selling decisions where the selling probability on each investor-account-day is determined by the return since purchase ($Return$) and the number of days since purchase ($Days$). The model assumes that the selling probability is a linearly increasing function of an absolute return while the sensitivity of the selling probability to the absolute return is lower for losses than for gains (i.e., an asymmetric V-shape). The selling probability as a function of $Return$ is expressed as:\\
-
-\noindent
-$P(Sell|Return)=\alpha+\gamma \beta  |Return|$, \\
-where $0\leq \gamma \leq 1$ when $Return\leq 0$, otherwise $\gamma=1$. \\
-In this equation, the parameter, $\gamma$, measures the disposition effect.\\
-
-The model also assumes that the selling probability (or investors' attention to the stock) exponentially decays while a converging minimal probability is lower for losses than for gains. Specifically, the decay function ($D$) is expressed as:\\
-
-\noindent
-$D(Days)=\theta \pi + (1-\theta \pi) e^{\mbox{-}\frac{Days}{S}}$,\\
-where $\pi$ is a minimal selling probability for gains after many days passed since purchase and $\theta \pi$ is that for losses ($0\leq \theta \leq 1$). $S$ is a parameter measuring a stability of retention.\footnote{Refer https://en.wikipedia.org/wiki/Forgetting\_curve.}\\
-
-All together, the selling probability on each investor-stock-day is expressed as:\\
-
-\noindent
-$P(Sell|Return, Days)=\bigg[\alpha+\gamma \beta |Return|\bigg]D(Days)$.\\
-
-In our model, two free parameters, $\gamma$ and $\theta$, lead to the disposition effect. The parameter, $\gamma$,  measures an attenuation of investors' sensitivity to the return since purchase when the stock is in loss while the parameter, $\theta$, measures an attenuation of investors' minimum attention paid to the stock when the stock is in loss. \\
-
-In the simulation, we set parameter values as follows:\\
-$\alpha=$, $\beta=$, $\gamma=$, $\pi=$, $\theta=$, $S=$. \\
-\HS{In the current version, the parameter values were arbitrarily chosen just to have a reasonable results. Ideally, we should conduct an optimization on empirical data to get the parameter values. However, the optimization does not work well.}
-
-
-
-
-\subsection{Results from the Simulation}
-
-
-
-
-\section{Discussion}
-\HS{We had better discuss why the model assumptions, in particular $0\leq \gamma \leq 1$ and $0\leq \theta \leq 1$, are psychologically plausible (if possible).}
-
-
-
 \clearpage
+
+%\section{Simulation}
+
+
 \begin{appendices}
 \section{Literature Review by \citet{BenDavidHirshleifer12}}
 	\label{appendix:bendavid_hirshleifer}
@@ -674,15 +627,11 @@ P^{sell\mbox{-}day}_{i} = \frac{A+C}{A+B+C} = \frac{P^{daily}_{i}}{P^{daily}_{i}
 	\label{figure:prop_B12_NG1NL1}
 \end{figure}
 
-\end{appendices}
-
-\pagebreak
-\bibliographystyle{plainnat}
-\bibliography{local_refs2new}
-
-\end{document}
+\clearpage
 
 \section{Unused Figures}
+
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\columnwidth]{barc_prop_holding_days.pdf}
@@ -885,4 +834,18 @@ P^{sell\mbox{-}day}_{i} = \frac{A+C}{A+B+C} = \frac{P^{daily}_{i}}{P^{daily}_{i}
 	\caption{Number of sold stocks on the day given that stock $i$ is sold.}
 	\label{figure:num_sold_given_i_sold}
 \end{figure}
+
+
+
+ 
+
+
+
+\end{appendices}
+
+\pagebreak
+\bibliographystyle{plainnat}
+\bibliography{local_refs2new}
+
+\end{document}
 

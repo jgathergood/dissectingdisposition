@@ -386,6 +386,28 @@ The vertices are $(x_c-\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c+\sqrt{A}
 %The sign of $b_2$ and the sign of $a_1-\frac{a_2 b_1}{b_2}$ together determine quadrants where the hyperbola locates.
 %(Note that coordinates axes are asymptotes.)\\
 %(Note that the origin of coordinates is the center of the hyperbola.)\\
+\noindent
+Note that, when $A<0$, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$. This means that the hyperbola is upward at any value of $x$. We can confirm it by  taking the first derivative of $y_3$.\\
+
+%\noindent
+%$y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2}$.\\
+
+\noindent
+%As seen above, the first derivative of $y_3$ is:\\
+\begin{equation}
+\label{eq:deriv}
+y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2},~where~A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}.
+\end{equation}
+
+\noindent
+Equation \ref{eq:deriv} indicates that:\\ 
+(1) $y_3$ is upward anywhere when $A<0$.\\
+(2) $y_3$ gets flatter as the distance between $x$ and the vertical asymptote $\mbox{-}\frac{a_2}{b_2}$ increases.\\
+(3) $y_3$ gets flatter as the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ decreases.\\% (for a given $b_2$).\\
+%(3) as $b_2$ decreases (for given $a_1$, $a_2$, and $b_1$).\\
+
+\noindent
+In sum, as long as $A<0$, the slope (i.e., the first derivative line) is always positive. The steepness of the slope is determined by the distance between $x$ and the vertical asymptote, $\mbox{-}\frac{a_2}{b_2}$ (the denominator) and the size of $A$ (the numerator).\\
 
 \subsection{Division of Two Asymmetric Inverse V-shaped Probabilities}
 \label{section:division_two_inverse_v}
@@ -395,34 +417,56 @@ $x$ is a small range of return since purchase of stock $i$,\\
 $y_1$ is $p^{daily}_{i}$ for the range of $x$,\\
 $y_2$ is $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ for the range of $x$, and \\
 $y_3$ is $P^{sell\mbox{-}day}_{i}$ for the range of $x$. \\
-\noindent
 
+\noindent
 Note that, by construction, $y_2$ is always larger than $y_1$ (i.e., $y_2>y_1$ for $N \geq2$). This leads to $a_2>a_1$.\\
 
 \noindent
 In this illustrative example, as seen in the left and the middle panels in Figure \ref{figure:illustration_color}, we approximate the upward curve in the negative domain with three lines and the downward curve in the positive domain with three lines. In each domain, the line is steeper around $x=0$ and gets flatter as $|x|$ increases (i.e., convex).\\
 
 \noindent
+First, we consider when $y_3$ is upward.\\ 
+As seen in Equation \ref{eq:deriv}, when $A<0$, $y_3$ is upward.\\
+
+\noindent
 In the negative domain, $b_1>0$ and $b_2>0$.\\
-Therefore, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$ is negative only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (Condition 1).\\
-Condition 1 means that, when separately plotting $y_1$ and $y_2$ for $x<0$ with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$.\\
-
-\noindent
-When Condition 1 is met, $A<0$. Then, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$.\\ 
-
-\noindent
-In addition, because $y_2 \geq 0$ and $b_2>0$, $x$ should be greater than the vertical asymptote, $-\frac{a_2}{b_2}$. (I.e., Because $y_2$ is a probability, it should not be negative.) Thus, when Condition 1 is met, corresponding $y_3$ locates lower-right of the center. \\
+Thus $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}<0$ is satisfied only when  $\frac{b_2}{a_2} < \frac{b_1}{a_1}$.\\
 
 \noindent
 Conversely, in the positive domain, $b_1<0$ and $b_2<0$.\\
-Therefore, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$ is negative only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (Condition 2). Note that the inequality is the same to Condition 1. However, as opposed to Condition 1, the sign of $b_1$ and $b_2$ are negative\\
-Condition 2 means that, when separately plotting $y_1$ and $y_2$ for $x>0$ with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually negatively steeper for $y_2$ than for $y_1$.\\
+Thus, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}<0$ is satisfied only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$.\\
 
 \noindent
-When Condition 2 is met, $A<0$. Then, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$.\\ 
+Therefore, regardless of a value of $x$, the condition to make $y_3$ upward is $\frac{b_2}{a_2} < \frac{b_1}{a_1}$  (Condition 1).\\
 
 \noindent
-In addition, because $y_2 \geq 0$ and $b_2<0$, $x$ should be less than the vertical asymptote, $-\frac{a_2}{b_2}$. Thus, when Condition 2 is met, corresponding $y_3$ locates upper-left of the center. \\
+When Condition 1 is met, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\
+
+\noindent
+In addition, because $y_2$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the x-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding $y_3$ locates lower-right of the center.
+Similarly, in the gain domain, $x$ should be less than the x-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding $y_3$ locates upper-left of the center.\\ 
+
+%\noindent
+%In the negative domain, $b_1>0$ and $b_2>0$.\\
+%Therefore, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$ is negative only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (Condition 1).\\
+%Condition 1 means that, when separately plotting $y_1$ and $y_2$ for $x<0$ with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$.\\
+
+%\noindent
+%When Condition 1 is met, $A<0$. Then, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\ 
+
+%\noindent
+%In addition, because $y_2 \geq 0$ and $b_2>0$, $x$ should be greater than the vertical asymptote, $-\frac{a_2}{b_2}$. (I.e., Because $y_2$ is a probability, it should not be negative.) Thus, when Condition 1 is met, corresponding $y_3$ locates lower-right of the center. \\
+
+%\noindent
+%Conversely, in the positive domain, $b_1<0$ and $b_2<0$.\\
+%Therefore, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$ is negative only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (Condition 2). Note that the inequality is the same to Condition 1. However, as opposed to Condition 1, the sign of $b_1$ and $b_2$ are negative\\
+%Condition 2 means that, when separately plotting $y_1$ and $y_2$ for $x>0$ with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually negatively steeper for $y_2$ than for $y_1$.\\
+
+%\noindent
+%When Condition 2 is met, $A<0$. Then, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\ 
+
+%\noindent
+%In addition, because $y_2 \geq 0$ and $b_2<0$, $x$ should be less than the vertical asymptote, $-\frac{a_2}{b_2}$. Thus, when Condition 2 is met, corresponding $y_3$ locates upper-left of the center. \\
 
 \noindent
 A division of two lines resulting in a part of a rectangular hyperbola is illustrated in Figure \ref{figure:illustration_hyperbola}. In each column, the blue line divided by the red line in the top panel results in the colored part of the hyperbola in the bottom panel. The colored part in the bottom panels corresponds to the same-colored curve in the right panel of Figure \ref{figure:illustration_color}.
@@ -443,37 +487,63 @@ A division of two lines resulting in a part of a rectangular hyperbola is illust
 	\label{figure:illustration_hyperbola}
 \end{figure}
 
-%\clearpage
-\noindent
-The discussion above shows that the curve of $y_3$ is upward because it is a part of a rectangular hyperbola with a negative $A$ (thus locating in the first and the fourth quadrant in a coordinate having an origin at the center of the hyperbola). However, in the negative domain of Figure \ref{figure:illustration_hyperbola}, the green curve is much steeper than the purple curve, and similarly, in the positive domain, the orange curve is much steeper than the light-blue curve. What is a reason behind it?\\
+%\noindent
+%The discussion above shows that the curve of $y_3$ is upward because it is a part of a rectangular hyperbola with a negative $A$ (thus locating in the first and the fourth quadrant in a coordinate having an origin at the center of the hyperbola). However, in the negative domain of Figure \ref{figure:illustration_hyperbola}, the green curve is much steeper than the purple curve, and similarly, in the positive domain, the orange curve is much steeper than the light-blue curve. What is a reason behind it?\\
+
+%\noindent
+%The convex downward curves of $y_2$ from the peak at $x=0$ to either of negative or positive side (the middle panel of  Figure \ref{figure:illustration_color}) means that $-\frac{a_2}{b_2}$ (i.e., the x-intercept of each line) gets larger in an absolute term as $|x|$ increases. Therefore, in the negative domain, the vertical asymptote, $y=-\frac{a_2}{b_2}$, gets more far from the origin, $(x, y)=(0, 0)$, as $x$ gets more negative, and thus, the corresponding part of the hyperbola is likely to be flatter as $x$ decreases. Similarly, in the positive domain, the vertical asymptote, $y=-\frac{a_2}{b_2}$, gets more far from the origin, $(x, y)=(0, 0)$, as $x$ gets more positive, and thus, the corresponding part of the hyperbola is likely to be flatter as $x$ increases.   
+%Therefore, an additional condition for $y_1$ divided by $y_2$ leading to a step-like shape is that the curve of $y_2$ is convex both in the negative and the positive domain (Condition 3A; See the denominator in Equation \ref{eq:deriv}).
+
+%In addition, as $|A|$ gets smaller (i.e., as $\frac{b_2}{a_2}$ gets closer to $\frac{b_1}{a_1}$), the hyperbola becomes closer to a horizontal line, $y=\frac{b_1}{b_2}$, except the area very close to $-\frac{a_2}{b_2}$. Therefore, when $\frac{b_2}{a_2} \approx \frac{b_1}{a_1}$, $y_3$ is nearly a horizontal line for most values of $x$. This is another reason for the flat part of $y_3$ (i.e., $P^{sell\mbox{-}day}_{i}$). 
+%Therefore, an alternative condition for a flatter curve in the region of large absolute $x$ is that the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ gets smaller as the absolute $x$ (i.e., return) gets larger (Condition 3B; See the inside of $A$ in Equation \ref{eq:deriv}).\\ 
 
 \noindent
-The convex downward curves of $y_2$ from the peak at $x=0$ to either of negative or positive side means that $-\frac{a_2}{b_2}$ (i.e., the x-intercept of the line) gets larger in an absolute term as $|x|$ increases. Therefore, in the negative domain, the vertical asymptote, $y=-\frac{a_2}{b_2}$, gets more far from the origin, $(x, y)=(0, 0)$, as $x$ gets more negative, and thus, the corresponding part of the hyperbola is likely to be flatter as $x$ decreases. Similarly, in the positive domain, the vertical asymptote, $y=-\frac{a_2}{b_2}$, gets more far from the origin, $(x, y)=(0, 0)$, as $x$ gets more positive, and thus, the corresponding part of the hyperbola is likely to be flatter as $x$ increases.   
-Therefore, an additional condition for $y_1$ divided by $y_2$ leading to a step-like shape is that the curve of $y_2$ is convex both in the negative and the positive domain (Condition 3).
+The discussion above shows that the curve of $y_3$ is upward because it is a part of a rectangular hyperbola with a negative $A$ (thus locating in the first or the fourth quadrant in a coordinate having an origin at the center of the hyperbola). However, in the negative domain of Figure \ref{figure:illustration_hyperbola}, the green curve is much steeper than the purple curve, and similarly, in the positive domain, the orange curve is much steeper than the light-blue curve. Now we consider what makes it more likely that $y_3$ gets flatter as $|x|$ increases.\\
 
-In addition note that, as $|A|$ gets smaller (i.e., as $\frac{b_2}{a_2}$ gets closer to $\frac{b_1}{a_1}$), the hyperbola becomes closer to a horizontal line, $y=\frac{b_1}{b_2}$, except the area very close to $-\frac{a_2}{b_2}$. Therefore, when $\frac{b_2}{a_2} \approx \frac{b_1}{a_1}$, $y_3$ is nearly a horizontal line for most values of $x$. This is another reason for the flat part of $y_3$ (i.e., $P^{sell\mbox{-}day}_{i}$). 
+\noindent
+According to Equation \ref{eq:deriv}, $y_3$ gets flatter as the distance between $x$ and the vertical asymptote $\mbox{-}\frac{a_2}{b_2}$ increases. As seen in the middle panel of Figure \ref{figure:illustration_color}, $y_2$ is convex from the peak at $x=0$ to either of negative or positive side. This means that $-\frac{a_2}{b_2}$ (i.e., the x-intercept of each line) gets more far from the origin, $(x, y)=(0, 0)$, as $|x|$ increases. Oppositely, if $y_2$ were concave rather than convex, $-\frac{a_2}{b_2}$ would get closer to the origin as $|x|$ increases, and thus, the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ would get smaller as $|x|$ increases. Therefore, $y_3$ is more likely to be flatter as |x| increases when $y_2$ is convex both in the loss and the gain domains.\\
 
+\noindent
+In addition, Equation \ref{eq:deriv} shows that $y_3$ gets flatter as the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ decreases.  The convexity in $y_1$ and $y_2$ seen in the left and middle panels of Figure \ref{figure:illustration_color} indicates that both $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ get smaller in the absolute term as |x| increases. This leads to the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ getting smaller as |x| increases. Thus, $y_3$ is more likely to be flatter as |x| increases when $y_1$ and $y_2$ are convex both in the loss and the gain domains.\\
+
+\noindent
+Two things together, the condition for $y_3$ to be flatter as |x| increases is that $y_1$ and $y_2$ are convex both in the loss and the gain domains (Condition 2). \\
+
+\noindent
+Note that Condition 1 is a sufficient condition for $y_3$ to be upward while Condition 2 is only makes it more likely that $y_3$ is flat in a large |x| region.\\
 
 \subsection{Connecting to the Empirical Findings}
 \label{section:emp_cond}
-\noindent
-As seen above,\\
-Condition 1: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1>0$ and $b_2>0$.\\
-Condition 2: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1<0$ and $b_2<0$.\\
-Condition 3: $y_2$ is convex both in the negative and the positive domain.\\
+%\noindent
+%As seen above,\\
+%Condition 1: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1>0$ and $b_2>0$.\\
+%Condition 2: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1<0$ and $b_2<0$.\\
+%Condition 3: $y_2$ is convex both in the negative and the positive domain.\\
+
+%\noindent
+%Condition 1 means that, when separately plotting the two lines in the negative domain with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$.\\
+%Condition 2 means that, when separately plotting the two lines in the positive domain with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually negatively steeper for $y_2$ than for $y_1$.\\
+
+%\noindent
+%According to a visual inspection, Condition 1 seems to be met in an arbitrary range of negative $x$, particularly in the region of small losses. (Compare the loss domain of Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+
+%\noindent
+%Similarly, Condition 2 seems to be met in an arbitrary range of positive $x$ (Compare the gain domain of Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) However, the difference in steepness between two curves is not so obvious comparing with the loss domain. This leads to a flatter line in the gain domain in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+
+%\noindent
+%Also, as seen in Figure \ref{figure:prop_sell_day_NG1NL1}, Condition 3 seems to be met. This leads to a flatter line in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+
+Condition 1 means that, when separately plotting the two lines, $y_1$ and $y_2$, with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$ in the loss domain and is visually negatively steeper for $y_2$ than for $y_1$ in the gain domain. 
 
 \noindent
-Condition 1 means that, when separately plotting the two lines in the negative domain with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$.\\
-Condition 2 means that, when separately plotting the two lines in the positive domain with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually negatively steeper for $y_2$ than for $y_1$.\\
+According to a visual inspection, Condition 1 seems to be met in an arbitrary range of $x$, particularly in the region of small losses. (Compare Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1} (as $y_3$).\\
 
 \noindent
-According to a visual inspection, Condition 1 seems to be met in an arbitrary range of negative $x$, particularly in the region of small losses. (Compare the loss domain of Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+On the other hand, the difference in steepness between $y_1$ and $y_2$ in the region of small gains is not so obvious comparing with the region of small losses. This leads to the flat curve in the region of small gains in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
 
 \noindent
-Similarly, Condition 2 seems to be met in an arbitrary range of positive $x$ (Compare the gain domain of Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) However, the difference in steepness between two curves is not so obvious comparing with the loss domain. This leads to a flatter line in the gain domain in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+Also, both Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) and \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$) are convex in the loss and the gain domains, and thus, Condition 2 seems to be met. This leads to the flat curve in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
 
-\noindent
-Also, as seen in Figure \ref{figure:prop_sell_day_NG1NL1}, Condition 3 seems to be met. This leads to a flatter line in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
 
 \section{Simulation}
 

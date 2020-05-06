@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -35,6 +35,12 @@ M.~Kaustia.
 \newblock Prospect theory and the disposition effect.
 \newblock \emph{J. Financ. Quant. Anal.}, 45\penalty0 (3):\penalty0 791--812,
   2010.
+
+\bibitem[Muggeo et~al.(2008)]{muggeo2008}
+Vito~MR Muggeo et~al.
+\newblock Segmented: an r package to fit regression models with broken-line
+  relationships.
+\newblock \emph{R news}, 8\penalty0 (1):\penalty0 20--25, 2008.
 
 \bibitem[Odean(1998)]{Odean98}
 T.~Odean.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  5 MAY 2020 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  6 MAY 2020 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1011,128 +1011,125 @@ Underfull \hbox (badness 10000) in paragraph at lines 512--514
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+LaTeX Warning: Reference `' on page 17 undefined on input line 548.
 
+
+LaTeX Warning: Reference `' on page 17 undefined on input line 549.
+
+<figures/segment.pdf, id=172, 1806.75pt x 505.89pt>
+File: figures/segment.pdf Graphic file (type pdf)
+<use figures/segment.pdf>
+Package pdftex.def Info: figures/segment.pdf  used on input line 555.
+(pdftex.def)             Requested size: 456.83629pt x 127.91568pt.
+
+Overfull \hbox (21.65453pt too wide) in paragraph at lines 554--556
+ []|  [] 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--540
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--543
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--546
-
- []
-
-
-LaTeX Warning: Reference `' on page 17 undefined on input line 553.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--565
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 568--571
-
- []
+LaTeX Warning: Reference `' on page 18 undefined on input line 566.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
+[18 <./figures/segment.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 574--578
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--576
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 581--584
 
  []
 
-[18] [19]
-Overfull \hbox (46.72346pt too wide) in paragraph at lines 598--598
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+
+ []
+
+[19] [20]
+Overfull \hbox (46.72346pt too wide) in paragraph at lines 611--611
 []\T1/cmr/bx/n/14.4 Literature Re-view by Ben-David and Hir-sh-leifer
  []
 
 
-Overfull \hbox (77.64066pt too wide) in paragraph at lines 613--645
+Overfull \hbox (77.64066pt too wide) in paragraph at lines 626--658
  [][] 
  []
 
-<figures/barc_holding_days_daily_3.pdf, id=183, 1084.05pt x 505.89pt>
+<figures/barc_holding_days_daily_3.pdf, id=194, 1084.05pt x 505.89pt>
 File: figures/barc_holding_days_daily_3.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_daily_3.pdf>
 Package pdftex.def Info: figures/barc_holding_days_daily_3.pdf  used on input l
-ine 652.
+ine 665.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-[20
+[21
 
 ]
-<figures/return_dist.pdf, id=187, 1734.48pt x 578.16pt>
+<figures/return_dist.pdf, id=198, 1734.48pt x 578.16pt>
 File: figures/return_dist.pdf Graphic file (type pdf)
 <use figures/return_dist.pdf>
-Package pdftex.def Info: figures/return_dist.pdf  used on input line 668.
+Package pdftex.def Info: figures/return_dist.pdf  used on input line 681.
 (pdftex.def)             Requested size: 380.69788pt x 126.89565pt.
- [21 <./figures/barc_holding_days_daily_3.pdf> <./figures/return_dist.pdf>]
-Overfull \hbox (6.22153pt too wide) in paragraph at lines 674--674
+ [22 <./figures/barc_holding_days_daily_3.pdf> <./figures/return_dist.pdf>]
+Overfull \hbox (6.22153pt too wide) in paragraph at lines 687--687
 []\T1/cmr/bx/n/14.4 More De-tails of Con-di-tion-ing on Sell-Days 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--704
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
 
  []
 
-<figures/barc_ABC_NG1_NL1_3.pdf, id=202, 1300.86pt x 505.89pt>
+<figures/barc_ABC_NG1_NL1_3.pdf, id=213, 1300.86pt x 505.89pt>
 File: figures/barc_ABC_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_ABC_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 735
+Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 748
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
-[22
+[23
 
 ]
-<figures/barc_B12_NG1_NL1_3.pdf, id=206, 1300.86pt x 505.89pt>
+<figures/barc_B12_NG1_NL1_3.pdf, id=217, 1300.86pt x 505.89pt>
 File: figures/barc_B12_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_B12_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 742
+Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 755
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
- [23 <./figures/barc_ABC_NG1_NL1_3.pdf> <./figures/barc_B12_NG1_NL1_3.pdf>] (./
-jump_in_selling_prob_bin.bbl) [24] (./jump_in_selling_prob_bin.aux)
+ [24 <./figures/barc_ABC_NG1_NL1_3.pdf> <./figures/barc_B12_NG1_NL1_3.pdf>] (./
+jump_in_selling_prob_bin.bbl) [25] (./jump_in_selling_prob_bin.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14124 strings out of 492982
- 271408 string characters out of 6136225
- 316270 words of memory out of 5000000
- 17377 multiletter control sequences out of 15000+600000
+ 14133 strings out of 492982
+ 271608 string characters out of 6136225
+ 316312 words of memory out of 5000000
+ 17385 multiletter control sequences out of 15000+600000
  17794 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,54p,1289b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1159,10 +1156,10 @@ uper/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1
 095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c
 :/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on jump_in_selling_prob_bin.pdf (24 pages, 1726550 bytes).
+Output written on jump_in_selling_prob_bin.pdf (25 pages, 1655870 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 318 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -514,6 +514,7 @@ Note that Condition 1 is a sufficient condition for $y_3$ to be upward while Con
 
 \subsection{Connecting to the Empirical Findings}
 \label{section:emp_cond}
+In this section, we examine whether conditions shown in the previous section are met in the empirical data.
 %\noindent
 %As seen above,\\
 %Condition 1: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1>0$ and $b_2>0$.\\
@@ -532,17 +533,29 @@ Note that Condition 1 is a sufficient condition for $y_3$ to be upward while Con
 
 %\noindent
 %Also, as seen in Figure \ref{figure:prop_sell_day_NG1NL1}, Condition 3 seems to be met. This leads to a flatter line in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+\subsubsection{Visual Inspection}
+Condition 1 means that, when separately plotting the two lines, $y_1$ and $y_2$, with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$ in the loss domain and is visually negatively steeper for $y_2$ than for $y_1$ in the gain domain. 
 
-Condition 1 means that, when separately plotting the two lines, $y_1$ and $y_2$, with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$ in the loss domain and is visually negatively steeper for $y_2$ than for $y_1$ in the gain domain. \\
+According to a visual inspection, Condition 1 seems to be met in an arbitrary range of $x$, particularly in the region of small losses. (Compare Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1} (as $y_3$).
+However, the difference in steepness between $y_1$ and $y_2$ in the region of small gains is not so obvious comparing with the region of small losses. This leads to the flatter curve in the region of small gains in Figure \ref{figure:prop_sell_days_NG1NL1}.
 
-\noindent
-According to a visual inspection, Condition 1 seems to be met in an arbitrary range of $x$, particularly in the region of small losses. (Compare Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1} (as $y_3$).\\
 
-\noindent
-However, the difference in steepness between $y_1$ and $y_2$ in the region of small gains is not so obvious comparing with the region of small losses. This leads to the flatter curve in the region of small gains in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
+Also, both Figure \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_day_NG1NL1} (as $y_2$) are convex in the loss and the gain domains, and thus, Condition 2 seems to be met. This leads to the flat curve in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1} (as $y_3$).
 
-\noindent
-Also, both Figure \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_day_NG1NL1} (as $y_2$) are convex in the loss and the gain domains, and thus, Condition 2 seems to be met. This leads to the flat curve in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1} (as $y_3$).\\
+\subsubsection{Inspection Based on Piecewise Regression Lines}
+We conduct a piecewise linear regression on the binned data shown in Figures \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_day_NG1NL1} (as $y_2$).\footnote{The algorithm shown by \citet{muggeo2008} was used. The number of kinks was set at 2 (i.e., 3 lines).} The regression is conducted separately for the loss and the gain domains of each figure (i.e., four regressions). 
+
+The resulting fitted lines are shown in Figure \ref{figure:segment}. Table \ref{} shows whether the fitted lines meet the conditions for ranges of $x$ segmented at each kink points in $y_1$ and $y_2$. $\frac{b_2}{a_2}-\frac{b_1}{a_1}$ is negative for most range of |x|, indicating that Condition 1 is mostly met. Also, both $b_1$ and $b_2$ get smaller in the absolute term as |x| increases, indicating that Condition 2 is met.   
+Table \ref{} also shows values of $A$ and $y_3'$.
+
+
+\begin{figure}[H]
+	\centering
+	\hspace*{-2cm} 
+	\includegraphics[width=1.2\columnwidth]{segment.pdf}
+	\caption{\small Fitted lines from piecewise linear regressions. In the left and the middle panels, the dots are taken from the binned data which are identical to those in Figure \ref{figure:prop_NG1NL1} for $y_1$ and are identical to those in Figure \ref{figure:prop_sell_day_NG1NL1} for $y_2$ while the solid lines are fitted lines based on piecewise linear regressions. In the right panel, the dots and the lines are calculated by $y_1$ divided by $y_2$ at the corresponding value of $x$ in the left and the middle panels, respectively.}
+	\label{figure:segment}
+\end{figure}
 
 
 \section{Simulation}
@@ -566,8 +579,8 @@ In this equation, the parameter, $\gamma$, measures the disposition effect.\\
 The model also assumes that the selling probability (or investors' attention to the stock) exponentially decays while a converging minimal probability is lower for losses than for gains. Specifically, the decay function ($D$) is expressed as:\\
 
 \noindent
-$D(Days)=\theta \pi + (1-\theta \pi) e^{\mbox{-}\frac{Days}{S}}$,\\
-where $\pi$ is a minimal selling probability for gains after many days passed since purchase and $\theta \pi$ is that for losses ($0\leq \theta \leq 1$). $S$ is a parameter measuring a stability of retention.\footnote{Refer https://en.wikipedia.org/wiki/Forgetting\_curve.}\\
+$D(Days)=\theta \pi + (1-\theta \pi) e^{\mbox{-}\frac{(Days\mbox{-}1)}{S}}$,\\
+where $\pi$ is a minimal selling probability for gains after many days passed since purchase (i.e., $\theta=1$) and $\theta \pi$ is that for losses ($0\leq \theta \leq 1$). $S$ is a parameter measuring a stability of retention.\footnote{Refer https://en.wikipedia.org/wiki/Forgetting\_curve.}\\
 
 All together, the selling probability on each investor-stock-day is expressed as:\\
 

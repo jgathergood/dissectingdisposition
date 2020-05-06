@@ -545,7 +545,7 @@ Also, both Figure \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_
 \subsubsection{Inspection Based on Piecewise Regression Lines}
 We conduct a piecewise linear regression on the binned data shown in Figures \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_day_NG1NL1} (as $y_2$).\footnote{The algorithm shown by \citet{muggeo2008} was used. The number of kinks was set at 2 (i.e., 3 lines).} The regression is conducted separately for the loss and the gain domains of each figure (i.e., four regressions). 
 
-The resulting fitted lines are shown in Figure \ref{figure:segment}. Table \ref{} shows whether the fitted lines meet the conditions for ranges of $x$ segmented at each kink points in $y_1$ and $y_2$. $\frac{b_2}{a_2}-\frac{b_1}{a_1}$ is negative for most range of |x|, indicating that Condition 1 is mostly met. Also, both $b_1$ and $b_2$ get smaller in the absolute term as |x| increases, indicating that Condition 2 is met.   
+The resulting fitted lines are shown in Figure \ref{figure:segment}. Table \ref{table:segment} shows whether the fitted lines meet the conditions for ranges of $x$ segmented at each kink points in $y_1$ and $y_2$. $\frac{b_2}{a_2}-\frac{b_1}{a_1}$ is negative for most range of |x|, indicating that Condition 1 is mostly met. Also, both $b_1$ and $b_2$ get smaller in the absolute term as |x| increases, indicating that Condition 2 is met.   
 Table \ref{} also shows values of $A$ and $y_3'$.
 
 
@@ -556,6 +556,30 @@ Table \ref{} also shows values of $A$ and $y_3'$.
 	\caption{\small Fitted lines from piecewise linear regressions. In the left and the middle panels, the dots are taken from the binned data which are identical to those in Figure \ref{figure:prop_NG1NL1} for $y_1$ and are identical to those in Figure \ref{figure:prop_sell_day_NG1NL1} for $y_2$ while the solid lines are fitted lines based on piecewise linear regressions. In the right panel, the dots and the lines are calculated by $y_1$ divided by $y_2$ at the corresponding value of $x$ in the left and the middle panels, respectively.}
 	\label{figure:segment}
 \end{figure}
+
+\begin{table}[ht] % \relax is needed if we [] follows \\
+	\centering
+	\caption{Results of Piecewise Linear Regressions}
+	\label{table:segment}
+	\begin{tabular}{lcccccl}
+		\hline
+		Range of $x$ & $a_1$ & $b_1$ & $a_2$ & $b_2$ & Condition 1 & Range of $y_3'$ \\ 
+		\hline
+		[-0.800, -0.171] & 0.002 &  0.002 & 0.020 &  0.002 & Y & [ 0.094,  0.111] \\ \relax
+		[-0.171, -0.130] & 0.002 &  0.002 & 0.027 &  0.041 &   & [-0.118, -0.100] \\ \relax
+		[-0.130, -0.030] & 0.004 &  0.010 & 0.027 &  0.041 & Y & [ 0.190,  0.270] \\ \relax
+		[-0.030, -0.019] & 0.004 &  0.010 & 0.031 &  0.193 &   & [-0.556, -0.478] \\ \relax
+		[-0.019,  0.000] & 0.006 &  0.130 & 0.031 &  0.193 & Y & [ 3.003,  3.858] \\ \relax
+		[ 0.000,  0.063] & 0.007 & -0.041 & 0.030 & -0.134 &   & [-0.529, -0.274] \\ \relax
+		[ 0.063,  0.069] & 0.005 & -0.007 & 0.030 & -0.134 & Y & [ 1.042,  1.120] \\ \relax
+		[ 0.069,  0.248] & 0.005 & -0.007 & 0.023 & -0.034 & Y & [ 0.029,  0.058] \\ \relax
+		[ 0.248,  0.291] & 0.005 & -0.007 & 0.016 & -0.006 &   & [-0.411, -0.398] \\ \relax
+		[ 0.291,  0.800] & 0.003 &  0.000 & 0.016 & -0.006 & Y & [ 0.072,  0.110] \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+
 
 
 \section{Simulation}

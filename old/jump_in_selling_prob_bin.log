@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  6 MAY 2020 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  7 MAY 2020 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -871,13 +871,6 @@ Overfull \hbox (23.16283pt too wide) in paragraph at lines 342--342
  []
 
 
-Overfull \hbox (43.11015pt too wide) in paragraph at lines 344--345
-\T1/cmr/m/n/10.95 asym-met-ric in-verse V-shaped. Sec-tion 3.3[] showed why $\O
-ML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 stock []i []is []in 
-[]a []sell[]day []portfolio\OT1/cmr/m/n/10.95 )$
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
@@ -918,128 +911,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 409--411
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--420
+Underfull \hbox (badness 10000) in paragraph at lines 417--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--423
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--426
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--430
+Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 435--438
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--441
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--448
+Underfull \hbox (badness 10000) in paragraph at lines 441--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 <figures/illustration_color.pdf, id=153, 1084.05pt x 505.89pt>
 File: figures/illustration_color.pdf Graphic file (type pdf)
 <use figures/illustration_color.pdf>
-Package pdftex.def Info: figures/illustration_color.pdf  used on input line 476
+Package pdftex.def Info: figures/illustration_color.pdf  used on input line 478
 .
 (pdftex.def)             Requested size: 342.62576pt x 159.88881pt.
 <figures/illustration_together.pdf, id=154, 794.97pt x 433.62pt>
 File: figures/illustration_together.pdf Graphic file (type pdf)
 <use figures/illustration_together.pdf>
 Package pdftex.def Info: figures/illustration_together.pdf  used on input line 
-485.
+487.
 (pdftex.def)             Requested size: 532.9747pt x 290.72238pt.
 
-Overfull \hbox (97.79294pt too wide) in paragraph at lines 484--486
+Overfull \hbox (97.79294pt too wide) in paragraph at lines 486--488
  []|  [] 
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 486--486
+Underfull \hbox (badness 1635) in paragraph at lines 488--488
 []\T1/cmr/m/n/10.95 Figure 13: \T1/cmr/m/n/10 Il-lus-tra-tion: Di-vi-sion of tw
 o asym-met-ric in-verse V-shaped curve
  []
 
 [15 <./figures/illustration_color.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 500--502
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--505
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--508
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
 [16 <./figures/illustration_together.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 509--511
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 512--514
 
  []
 
 
-LaTeX Warning: Reference `' on page 17 undefined on input line 549.
+Underfull \hbox (badness 10000) in paragraph at lines 515--517
 
-<figures/segment.pdf, id=172, 1806.75pt x 505.89pt>
-File: figures/segment.pdf Graphic file (type pdf)
-<use figures/segment.pdf>
-Package pdftex.def Info: figures/segment.pdf  used on input line 555.
-(pdftex.def)             Requested size: 456.83629pt x 127.91568pt.
+ []
 
-Overfull \hbox (21.65453pt too wide) in paragraph at lines 554--556
- []|  [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--520
+
  []
 
 [17]
-Overfull \hbox (5.17432pt too wide) in paragraph at lines 564--580
+<figures/segment.pdf, id=176, 1806.75pt x 505.89pt>
+File: figures/segment.pdf Graphic file (type pdf)
+<use figures/segment.pdf>
+Package pdftex.def Info: figures/segment.pdf  used on input line 562.
+(pdftex.def)             Requested size: 456.83629pt x 127.91568pt.
+
+Overfull \hbox (21.65453pt too wide) in paragraph at lines 561--563
+ []|  [] 
+ []
+
+
+Overfull \hbox (5.17432pt too wide) in paragraph at lines 571--587
  [][] 
  []
 
-
-LaTeX Warning: Reference `' on page 18 undefined on input line 590.
-
 [18 <./figures/segment.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--602
-
- []
+LaTeX Warning: Reference `' on page 19 undefined on input line 597.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 603--604
@@ -1047,32 +1029,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 603--604
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
+Underfull \hbox (badness 10000) in paragraph at lines 605--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--613
+Underfull \hbox (badness 10000) in paragraph at lines 612--615
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--615
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
 
  []
 
-[19] [20]
-Overfull \hbox (46.72346pt too wide) in paragraph at lines 635--635
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 618--620
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+
+ []
+
+[20]
+Overfull \hbox (46.72346pt too wide) in paragraph at lines 642--642
 []\T1/cmr/bx/n/14.4 Literature Re-view by Ben-David and Hir-sh-leifer
  []
 
 
-Overfull \hbox (77.64066pt too wide) in paragraph at lines 650--682
+Overfull \hbox (77.64066pt too wide) in paragraph at lines 657--689
  [][] 
  []
 
@@ -1080,7 +1072,7 @@ Overfull \hbox (77.64066pt too wide) in paragraph at lines 650--682
 File: figures/barc_holding_days_daily_3.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_daily_3.pdf>
 Package pdftex.def Info: figures/barc_holding_days_daily_3.pdf  used on input l
-ine 689.
+ine 696.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 [21
 
@@ -1088,27 +1080,27 @@ ine 689.
 <figures/return_dist.pdf, id=198, 1734.48pt x 578.16pt>
 File: figures/return_dist.pdf Graphic file (type pdf)
 <use figures/return_dist.pdf>
-Package pdftex.def Info: figures/return_dist.pdf  used on input line 705.
+Package pdftex.def Info: figures/return_dist.pdf  used on input line 712.
 (pdftex.def)             Requested size: 380.69788pt x 126.89565pt.
  [22 <./figures/barc_holding_days_daily_3.pdf> <./figures/return_dist.pdf>]
-Overfull \hbox (6.22153pt too wide) in paragraph at lines 711--711
+Overfull \hbox (6.22153pt too wide) in paragraph at lines 718--718
 []\T1/cmr/bx/n/14.4 More De-tails of Con-di-tion-ing on Sell-Days 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
 
  []
 
 <figures/barc_ABC_NG1_NL1_3.pdf, id=213, 1300.86pt x 505.89pt>
 File: figures/barc_ABC_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_ABC_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 772
+Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 779
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
 [23
@@ -1117,7 +1109,7 @@ Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 772
 <figures/barc_B12_NG1_NL1_3.pdf, id=217, 1300.86pt x 505.89pt>
 File: figures/barc_B12_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_B12_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 779
+Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 786
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
  [24 <./figures/barc_ABC_NG1_NL1_3.pdf> <./figures/barc_B12_NG1_NL1_3.pdf>] (./
@@ -1157,7 +1149,7 @@ uper/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1
 095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c
 :/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on jump_in_selling_prob_bin.pdf (25 pages, 1656715 bytes).
+Output written on jump_in_selling_prob_bin.pdf (25 pages, 1658107 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  227 compressed objects within 3 object streams

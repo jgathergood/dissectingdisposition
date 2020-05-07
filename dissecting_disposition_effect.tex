@@ -195,12 +195,6 @@ This sample restriction is equivalent to Figure \ref{figure:prop_NG1NL1}, $P^{da
 	\label{eq:1}
 P^{sell\mbox{-}day}_{i} = \frac{P^{daily}_{i}}{P(stock~i~is~in~a~sell\mbox{-}day~portfolio)}
 \end{equation}
-\small
-%where $P^{sell\mbox{-}day}_{i}$ is the probability of stock $i$ being sold on sell-days. $P^{daily}_{i}$ is the daily probability of stock $i$ being sold.
-%Note that Figure \ref{figure:prop_all} shows $P^{daily}_{i}$ as a function of return of stock $i$. 
-%Figure \ref{figure:prop_sell_day} shows $P(Stock~i~is~included~in~a~sell\mbox{-}day~portfolio)$ as a function of return of stock $i$.
-%Figure \ref{figure:prop_sell_days} shows $P^{sell\mbox{-}day}_{i}$ as a function of return of stock $i$.\\
-\normalsize
 
 
 \begin{figure}[H]
@@ -212,20 +206,11 @@ P^{sell\mbox{-}day}_{i} = \frac{P^{daily}_{i}}{P(stock~i~is~in~a~sell\mbox{-}day
 
 As discussed above, the asymmetric inverse V-shaped daily probability of stock $i$ being sold (Figure \ref{figure:prop_NG1NL1}) divided by the oppositely asymmetric inverse V-shaped probability of stock $i$ being included in a sell-day portfolio (Figure \ref{figure:prop_sell_day_NG1NL1}) leads to the step-like shape (Figure \ref{figure:prop_sell_days_NG1NL1}). (Note that we discuss detailed mechanism about the division of two asymmetric inverse V-shaped curves in Section \ref{section:condition}.) \\
 
-%That is, in the loss domain on the x-axis, the steep curve for $P^{daily}_{i}$ divided by the less steeper curve for $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ leads to the further steeper curve  in the neighbor of zero rerurn for $P^{sell\mbox{-}day}_{i}$. On the other hand, in the gain domain, the less steeper curve for $P^{daily}_{i}$ divided by the steeper curve for $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ leads to the flatter curve for $P^{sell\mbox{-}day}_{i}$. Two sides together create the step-like shape. 
-
 Then, the next questions are:\\
 (1) Why is $P(stock~i~in~a~sell\mbox{-}day~portfolio)$ as a function of return (Figure \ref{figure:prop_sell_day_NG1NL1}) inverse V-shaped?\\
 (2) Why is the downward curve from the peak at zero return in Figure \ref{figure:prop_sell_day_NG1NL1} steeper in the gain domain than in the loss domain?\\
 
-%We will answer these two questions one by one. 
-
-$P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ can be expressed as Equation \ref{eq:2}.%\footnote{Substituting Equation \ref{eq:2} into Equation \ref{eq:1} leads to:
-%	\begin{equation*}
-%	\label{eq:3}
-%	P^{sell\mbox{-}day}_{i} = \frac{P^{daily}_{i}}{1-(1-P^{daily}_{i})\prod_{j=1}^{N-1}(1-P^{daily}_{j})}
-%	\end{equation*}
-%}
+$P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ can be expressed as Equation \ref{eq:2}.
 
 \begin{equation}
 \label{eq:2}
@@ -247,7 +232,6 @@ Similar to Figure \ref{figure:prop_NG1NL1}, Figure \ref{figure:prop_others_NG1NL
 
 As seen in Figure \ref{figure:holding_days_i_j_NG1NL1}, the holding period of stock $j$ is, on average, similar to that of stock $i$. Because an absolute return tends to increases as a holding period increases (Figure \ref{figure:holding_days}), the larger the absolute return of stock $i$ the larger the absolute return of stock $j$ (Figure \ref{figure:holding_days_i_j_NG1NL1}). Further, because the selling probability is an increasing function of the absolute return (Figure \ref{figure:holding_days}), the larger the absolute return of stock $i$ the larger the average selling probability of stocks $j$, leading to the inverse V-shape in Figure \ref{figure:prop_others_NG1NL1}. 
 
-%(Note that the downward curves from the peak at zero return in Figure \ref{figure:prop_others_NG1NL1} are convex because the distribution of return since purchase highly concentrates around zero return and stocks with a small absolute return tend to be held together with other stocks with a short holding period associating with a high selling probability.)
 
 In short, $P^{daily}_{j}$ as a function of the return of stock $i$ (Figure \ref{figure:prop_others_NG1NL1}) has a similar shape to $P^{daily}_{i}$ (Figure \ref{figure:prop_NG1NL1}) through the similarity in holding periods among stocks in the same portfolio. 
 
@@ -330,8 +314,6 @@ That is, due to the similar holding periods, an absolute return of stock $i$ and
 \noindent
 (5) The asymmetric inverse V-shaped curve seen in Figure \ref{figure:prop_NG1NL1} divided by the oppositely asymmetric inverse V-shaped curve seen in Figure \ref{figure:prop_sell_day_NG1NL1} leads to the step-like shape in Figure \ref{figure:prop_sell_days_NG1NL1}. (Note that both Figures  \ref{figure:prop_NG1NL1} and \ref{figure:prop_sell_day_NG1NL1} have convex downward curve in the gain and the loss domains.)\\
 
-%That is, an inverse V-shape (Figure \ref{figure:prop_NG1NL1}) divided by another inverse V-shape (Figure \ref{figure:prop_sell_day_NG1NL1}) makes a resulting curve overall flatter. However, because the numerator (Figure \ref{figure:prop_NG1NL1}) is steeper in the loss domain than in the gain domain, and conversely, the denominator (Figure \ref{figure:prop_sell_day_NG1NL1}) is steeper in the gain domain than in the loss domain, the downward curve from the peak at zero return toward the negative region is preserved while the downward curve toward the positive region becomes flatter. Two sides together creates the step-like shape.\\
-
 Out of five factors listed above, (a) and (c) are behavioral things while (b), (d), and (e) are quite mechanical things.
 
 While "holding period", "absolute return since purchase", and "selling probability" are highly correlated, the causal direction is unknown. For example, stocks with a long holding period may be initially bought with an intention of a long-term investment, leading to the smaller selling probability. Alternatively, investors may pay less attention to stocks as a holding period increases, leading to the smaller selling probability.
@@ -341,9 +323,9 @@ The factors (a) and (c) may relate to investors' attention. That is, just after 
 
 \section{Details of Division of Two Asymmetric Inverse V-shapes}
 \label{section:condition}
-Section \ref{section:ave} showed why $P^{daily}_{i}$ as a function of return since purchase of stock $i$ is asymmetric inverse V-shaped. Section \ref{section:cond} showed why $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ as a function of return since purchase of stock $i$ is oppositely asymmetric inverse V-shaped (with convex downward curves from a peak at zero return to either of the gain or the loss domain).
+Section \ref{section:ave} showed why $P^{daily}_{i}$ as a function of return since purchase of stock $i$ is asymmetric inverse V-shaped with convex downward curves both in the gain and the loss domain. Section \ref{section:cond} showed why $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ as a function of return since purchase of stock $i$ is oppositely asymmetric inverse V-shaped with convex downward curves both in the gain and the loss domain.
 
-In Section \ref{section:division_two_lines}, we review how a division of two lines works, leading to a hyperbola. Then, in Section \ref{section:division_two_inverse_v}, we see the mechanism and conditions where a division of two asymmetric inverse V-shaped probabilities leads to a step-like schedule. Finally, in Section \ref{section:emp_cond}, we see that $P^{daily}_{i}$ as a dividend and\\ $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ as a divisor meet those conditions.
+In Section \ref{section:division_two_lines}, we review how a division of two lines works, leading to a hyperbola. Then, in Section \ref{section:division_two_inverse_v}, we see the mechanism and conditions where a division of two asymmetric inverse V-shaped probabilities leads to a step-like schedule. Finally, in Section \ref{section:emp_cond}, we see that $P^{daily}_{i}$ as a dividend and\\ $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ as a divisor meet those conditions in the empirical data.
 
 \subsection{Mathematics of Division of Two Lines}
 \label{section:division_two_lines}
@@ -352,17 +334,6 @@ Consider two lines: $y_1=a_1+b_1x$ and $y_2=a_2+b_2x$.\\
 \noindent
 A division of the two lines is:\\
 $y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{a_1+b_1x}{a_2+b_2x}=\frac{b_1}{b_2}+\frac{a_1-\frac{a_2 b_1}{b_2}}{a_2+b_2x}$\\
-
-\noindent
-%A division of the two lines is: $y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{y_1}{y_2}=\frac{a_1+b_1x}{a_2+b_2x}$.\\
-
-%\noindent
-%In the long division format it is: \LongDiv{b_2x+a_2}{b_1x+a_1}\\
-
-%\noindent
-%Proceeding a first step in the long division leads to:\\
-%$y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{a_1+b_1x}{a_2+b_2x}=\frac{b_1}{b_2}+\frac{a_1-\frac{a_2 %b_1}{b_2}}{a_2+b_2x}$\\
-%($\frac{b_1}{b_2}$ and $a_1{\scriptstyle -}\frac{a_2 b_1}{b_2}$ can be considered as a quotient and a remainder, respectively )\\
 
 \noindent
 This means that $y_3$ is a rectangular hyperbola with asymptotes of $x=-\frac{a_2}{b_2}$ (vertical line) and $y=\frac{b_1}{b_2}$ (horizontal line). \\
@@ -379,21 +350,10 @@ That is:\\
 The vertices are $(x_c+\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c-\sqrt{A})$. for $A>0$ and\\
 The vertices are $(x_c-\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c+\sqrt{A})$. for $A<0$.\footnote{The distance between the center and the vertices is $\sqrt{2A}$. The linear eccentricity is $2\sqrt{A}$ and the eccentricity is $\sqrt{2}$. The radius of curvature at the vertices is $\sqrt{2A}$. Refer https://en.wikipedia.org/wiki/Hyperbola.}\\
 
-%\noindent
-%The first term, $\frac{b_1}{b_2}$, represents a vertical shift of the hyperbola.\\
-%$a_2$ in the denominator of the second term represents a horizontal shift of the vertical asymptote.\\
-%The absolute size of $b_2$ and the absolute size of $a_1-\frac{a_2 b_1}{b_2}$ together determine the eccentricity (i.e., the measure of the curvature) around the vertices. (The larger $|b_2|$ the larger the eccentricity around the vertices.)\\
-%The sign of $b_2$ and the sign of $a_1-\frac{a_2 b_1}{b_2}$ together determine quadrants where the hyperbola locates.
-%(Note that coordinates axes are asymptotes.)\\
-%(Note that the origin of coordinates is the center of the hyperbola.)\\
 \noindent
 Note that, when $A<0$, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$. This means that the hyperbola is upward at any value of $x$. We can confirm it by  taking the first derivative of $y_3$.\\
 
-%\noindent
-%$y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2}$.\\
-
 \noindent
-%As seen above, the first derivative of $y_3$ is:\\
 \begin{equation}
 \label{eq:deriv}
 y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2},~where~A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}.
@@ -402,24 +362,30 @@ y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2},~where~A = \frac{a_1-\frac{a_2 b
 \noindent
 Equation \ref{eq:deriv} indicates that:\\ 
 (1) $y_3$ is upward anywhere when $A<0$.\\
-(2) $y_3$ gets flatter as the distance between $x$ and the vertical asymptote $\mbox{-}\frac{a_2}{b_2}$ increases.\\
-(3) $y_3$ gets flatter as the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ decreases.\\% (for a given $b_2$).\\
-%(3) as $b_2$ decreases (for given $a_1$, $a_2$, and $b_1$).\\
+(2) the slope of $y_3$ gets flatter as $|A|$ decreases.\\
+(3) the slope of $y_3$ gets flatter as the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ increases.\\
 
 \noindent
-In sum, as long as $A<0$, the slope (i.e., the first derivative line) is always positive. The steepness of the slope is determined by the distance between $x$ and the vertical asymptote, $\mbox{-}\frac{a_2}{b_2}$ (the denominator) and the size of $A$ (the numerator).\\
+In sum, as long as $A<0$, the slope (i.e., the first derivative line) of $y_3$ is always positive. The steepness of the slope is determined by the distance between $x$ and the vertical asymptote, $\mbox{-}\frac{a_2}{b_2}$ (the denominator in Equation \ref{eq:deriv}) and the size of $A$ (the numerator in Equation \ref{eq:deriv}). Note that $A$ is fixed with given line shapes of $y_1$ and $y_2$ while the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ is sensitive to a value of $x$ even with given shapes of two lines in addition to a shape of $y_2$.\\
 
 \subsection{Division of Two Asymmetric Inverse V-shaped Probabilities}
 \label{section:division_two_inverse_v}
 
-Now we approximate an asymmetric inverse V-shaped curves as a joint of many lines. Continuing the above notations and consider that:\\
-$x$ is a small range of return since purchase of stock $i$,\\
-$y_1$ is $p^{daily}_{i}$ for the range of $x$,\\
-$y_2$ is $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ for the range of $x$, and \\
-$y_3$ is $P^{sell\mbox{-}day}_{i}$ for the range of $x$. \\
+Now we approximate an asymmetric inverse V-shaped curves as a joint of many lines. (We can consider it as fitting the data points with many piecewise linear regression lines.)\\
 
 \noindent
-Note that, by construction, $y_2$ is always larger than $y_1$ (i.e., $y_2>y_1$ for $N \geq2$). This leads to $a_2>a_1$.\\
+We denote:\\
+> a return since purchase of stock $i$ as $x$, \\
+> $p^{daily}_{i}$ as $Y_1$,\\
+> $P(stock~i~is~in~a~sell\mbox{-}day~portfolio)$ as $Y_2$, and \\
+> $P^{sell\mbox{-}day}_{i}$ as $Y_3$.\\
+
+\noindent
+We assume that $Y_1$ and $Y_2$ can be approximated with many lines, $y^i_1$, $i=\{1,2,..\}$ and $y^j_2$, $j=\{1,2,..\}$, respectively.
+To make the notations simple, for a given small range of $x$, we denote a corresponding fitted line on $Y_1$ and $Y_2$ as $y_1(=a_1+b_1x)$ and $y_2(=a_2+b_2x)$, respectively and denote a corresponding part of $Y_3$ as $y_3$ (a part of hyperbola).\\
+
+%\noindent
+%Note that, by construction, $y_2$ is always larger than $y_1$ (i.e., $y_2>y_1$ for $N \geq2$). This leads to $a_2>a_1$.\\
 
 \noindent
 In this illustrative example, as seen in the left and the middle panels in Figure \ref{figure:illustration_color}, we approximate the upward curve in the negative domain with three lines and the downward curve in the positive domain with three lines. In each domain, the line is steeper around $x=0$ and gets flatter as $|x|$ increases (i.e., convex).\\
@@ -443,30 +409,9 @@ Therefore, regardless of a value of $x$, the condition to make $y_3$ upward is $
 When Condition 1 is met, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\
 
 \noindent
-In addition, because $y_2$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the x-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding $y_3$ locates lower-right of the center.
-Similarly, in the gain domain, $x$ should be less than the x-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding $y_3$ locates upper-left of the center.\\ 
+In addition, because $y_2$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding $y_3$ locates lower-right of the center.
+Similarly, in the gain domain, $x$ should be less than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding $y_3$ locates upper-left of the center.\\ 
 
-%\noindent
-%In the negative domain, $b_1>0$ and $b_2>0$.\\
-%Therefore, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$ is negative only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (Condition 1).\\
-%Condition 1 means that, when separately plotting $y_1$ and $y_2$ for $x<0$ with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$.\\
-
-%\noindent
-%When Condition 1 is met, $A<0$. Then, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\ 
-
-%\noindent
-%In addition, because $y_2 \geq 0$ and $b_2>0$, $x$ should be greater than the vertical asymptote, $-\frac{a_2}{b_2}$. (I.e., Because $y_2$ is a probability, it should not be negative.) Thus, when Condition 1 is met, corresponding $y_3$ locates lower-right of the center. \\
-
-%\noindent
-%Conversely, in the positive domain, $b_1<0$ and $b_2<0$.\\
-%Therefore, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$ is negative only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (Condition 2). Note that the inequality is the same to Condition 1. However, as opposed to Condition 1, the sign of $b_1$ and $b_2$ are negative\\
-%Condition 2 means that, when separately plotting $y_1$ and $y_2$ for $x>0$ with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually negatively steeper for $y_2$ than for $y_1$.\\
-
-%\noindent
-%When Condition 2 is met, $A<0$. Then, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\ 
-
-%\noindent
-%In addition, because $y_2 \geq 0$ and $b_2<0$, $x$ should be less than the vertical asymptote, $-\frac{a_2}{b_2}$. Thus, when Condition 2 is met, corresponding $y_3$ locates upper-left of the center. \\
 
 \noindent
 A division of two lines resulting in a part of a rectangular hyperbola is illustrated in Figure \ref{figure:illustration_hyperbola}. In each column, the blue line divided by the red line in the top panel results in the colored part of the hyperbola in the bottom panel. The colored part in the bottom panels corresponds to the same-colored curve in the right panel of Figure \ref{figure:illustration_color}.
@@ -487,52 +432,34 @@ A division of two lines resulting in a part of a rectangular hyperbola is illust
 	\label{figure:illustration_hyperbola}
 \end{figure}
 
-%\noindent
-%The discussion above shows that the curve of $y_3$ is upward because it is a part of a rectangular hyperbola with a negative $A$ (thus locating in the first and the fourth quadrant in a coordinate having an origin at the center of the hyperbola). However, in the negative domain of Figure \ref{figure:illustration_hyperbola}, the green curve is much steeper than the purple curve, and similarly, in the positive domain, the orange curve is much steeper than the light-blue curve. What is a reason behind it?\\
-
-%\noindent
-%The convex downward curves of $y_2$ from the peak at $x=0$ to either of negative or positive side (the middle panel of  Figure \ref{figure:illustration_color}) means that $-\frac{a_2}{b_2}$ (i.e., the x-intercept of each line) gets larger in an absolute term as $|x|$ increases. Therefore, in the negative domain, the vertical asymptote, $y=-\frac{a_2}{b_2}$, gets more far from the origin, $(x, y)=(0, 0)$, as $x$ gets more negative, and thus, the corresponding part of the hyperbola is likely to be flatter as $x$ decreases. Similarly, in the positive domain, the vertical asymptote, $y=-\frac{a_2}{b_2}$, gets more far from the origin, $(x, y)=(0, 0)$, as $x$ gets more positive, and thus, the corresponding part of the hyperbola is likely to be flatter as $x$ increases.   
-%Therefore, an additional condition for $y_1$ divided by $y_2$ leading to a step-like shape is that the curve of $y_2$ is convex both in the negative and the positive domain (Condition 3A; See the denominator in Equation \ref{eq:deriv}).
-
-%In addition, as $|A|$ gets smaller (i.e., as $\frac{b_2}{a_2}$ gets closer to $\frac{b_1}{a_1}$), the hyperbola becomes closer to a horizontal line, $y=\frac{b_1}{b_2}$, except the area very close to $-\frac{a_2}{b_2}$. Therefore, when $\frac{b_2}{a_2} \approx \frac{b_1}{a_1}$, $y_3$ is nearly a horizontal line for most values of $x$. This is another reason for the flat part of $y_3$ (i.e., $P^{sell\mbox{-}day}_{i}$). 
-%Therefore, an alternative condition for a flatter curve in the region of large absolute $x$ is that the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ gets smaller as the absolute $x$ (i.e., return) gets larger (Condition 3B; See the inside of $A$ in Equation \ref{eq:deriv}).\\ 
+\noindent
+The discussion above shows that the curve of $y_3$ as a part of a rectangular hyperbola is upward when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ (i.e., $A<0$). However, in the negative domain of Figure \ref{figure:illustration_hyperbola}, the green curve is much steeper than the purple curve, and similarly, in the positive domain, the orange curve is much steeper than the light-blue curve. Now we consider what makes it more likely that $Y_3$ gets flatter as $|x|$ increases.\\
 
 \noindent
-The discussion above shows that the curve of $y_3$ is upward because it is a part of a rectangular hyperbola with a negative $A$ (thus locating in the first or the fourth quadrant in a coordinate having an origin at the center of the hyperbola). However, in the negative domain of Figure \ref{figure:illustration_hyperbola}, the green curve is much steeper than the purple curve, and similarly, in the positive domain, the orange curve is much steeper than the light-blue curve. Now we consider what makes it more likely that $y_3$ gets flatter as $|x|$ increases.\\
+As seen in the middle panel of Figure \ref{figure:illustration_color}, $Y_2$ is convex from the peak at $x=0$ to either of negative or positive side. 
+Thus the $x$-intercept of a fitted line, $y_2$, gets far from the origin, $(x, y)=(0, 0)$, as a range of $x$, which the fitted line corresponds to, gets far from the origin. This means that, at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines), the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ jumps up. (Note that, within a range of $x$ which one fitted line corresponds to, the distance gradually decreases as $|x|$ increases.)\\
 
 \noindent
-According to Equation \ref{eq:deriv}, $y_3$ gets flatter as the distance between $x$ and the vertical asymptote $\mbox{-}\frac{a_2}{b_2}$ increases. As seen in the middle panel of Figure \ref{figure:illustration_color}, $y_2$ is convex from the peak at $x=0$ to either of negative or positive side. This means that $-\frac{a_2}{b_2}$ (i.e., the x-intercept of each line) gets more far from the origin, $(x, y)=(0, 0)$, as $|x|$ increases. Oppositely, if $y_2$ were concave rather than convex, $-\frac{a_2}{b_2}$ would get closer to the origin as $|x|$ increases, and thus, the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ would get smaller as $|x|$ increases. Therefore, $y_3$ is more likely to be flatter as |x| increases when $y_2$ is convex both in the loss and the gain domains.\\
+Focusing on the denominator in Equation \ref{eq:deriv}, $y_3$ gets flatter as the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ (the $x$-intercept of $y_2$ or the vertical asymptote of $y_3$) increases. Thus, given that $Y_2$ is convex in both domains, $Y_3$ get flatter when a value of $x$ crosses each kink point of $Y_2$ from the origin.\footnote{Consider the opposite case. If $Y_2$ were concave rather than convex, at each kink point, $-\frac{a_2}{b_2}$ would get closer to the origin as a corresponding range of $x$ gets far from the origin, and thus, the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ would get smaller. This leads to $Y_3$ getting steeper as $|x|$ increases, other things being equal.} 
+The more convex the curve of $Y_2$ in each domain the more likely the curve of $Y_3$ gets flatter as $|x|$ increases. (Note that, within one hyperbola $y_3$, the curve gets steeper as $|x|$ increases.)\\ 
+
+Next focusing on the numerator in Equation \ref{eq:deriv},
+
+Seeing it conversely, $Y_3$ tends to be steeply upward around zero if the fitted line, $y_2$, closest to the origin in either side is steep.
 
 \noindent
-In addition, Equation \ref{eq:deriv} shows that $y_3$ gets flatter as the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ decreases.  The convexity in $y_1$ and $y_2$ seen in the left and middle panels of Figure \ref{figure:illustration_color} indicates that both $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ get smaller in the absolute term as |x| increases. This leads to the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ getting smaller as |x| increases. Thus, $y_3$ is more likely to be flatter as |x| increases when $y_1$ and $y_2$ are convex both in the loss and the gain domains.\\
+In addition, Equation \ref{eq:deriv} shows that $y_3$ gets flatter as the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ decreases.  The convexity in $y_1$ and $y_2$ seen in the left and middle panels of Figure \ref{figure:illustration_color} indicates that both $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ get smaller in the absolute term as $|x|$ increases. This leads to the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ getting smaller as $|x|$ increases. Thus, $y_3$ is more likely to be flatter as $|x|$ increases when $y_1$ and $y_2$ are convex both in the loss and the gain domains.\\
 
 \noindent
-Two things together, the condition for $y_3$ to be flatter as |x| increases is that $y_1$ and $y_2$ are convex both in the loss and the gain domains (Condition 2). \\
+Two things together, the condition for $y_3$ to be flatter as $|x|$ increases is that $y_1$ and $y_2$ are convex both in the loss and the gain domains (Condition 2). \\
 
 \noindent
-Note that Condition 1 is a sufficient condition for $y_3$ to be upward while Condition 2 only makes it more likely that $y_3$ is flat in the region of large |x|.\\
+Note that Condition 1 is a sufficient condition for $y_3$ to be upward while Condition 2 only makes it more likely that $y_3$ is flat in the region of large $|x|$.\\
 
 \subsection{Connecting to the Empirical Findings}
 \label{section:emp_cond}
 In this section, we examine whether conditions shown in the previous section are met in the empirical data.
-%\noindent
-%As seen above,\\
-%Condition 1: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1>0$ and $b_2>0$.\\
-%Condition 2: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $b_1<0$ and $b_2<0$.\\
-%Condition 3: $y_2$ is convex both in the negative and the positive domain.\\
 
-%\noindent
-%Condition 1 means that, when separately plotting the two lines in the negative domain with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$.\\
-%Condition 2 means that, when separately plotting the two lines in the positive domain with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually negatively steeper for $y_2$ than for $y_1$.\\
-
-%\noindent
-%According to a visual inspection, Condition 1 seems to be met in an arbitrary range of negative $x$, particularly in the region of small losses. (Compare the loss domain of Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
-
-%\noindent
-%Similarly, Condition 2 seems to be met in an arbitrary range of positive $x$ (Compare the gain domain of Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) However, the difference in steepness between two curves is not so obvious comparing with the loss domain. This leads to a flatter line in the gain domain in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
-
-%\noindent
-%Also, as seen in Figure \ref{figure:prop_sell_day_NG1NL1}, Condition 3 seems to be met. This leads to a flatter line in the region of large absolute returns in Figure \ref{figure:prop_sell_days_NG1NL1}.\\
 \subsubsection{Visual Inspection}
 Condition 1 means that, when separately plotting the two lines, $y_1$ and $y_2$, with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$ in the loss domain and is visually negatively steeper for $y_2$ than for $y_1$ in the gain domain. 
 
@@ -545,8 +472,9 @@ Also, both Figure \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_
 \subsubsection{Inspection Based on Piecewise Regression Lines}
 We conduct a piecewise linear regression on the binned data shown in Figures \ref{figure:prop_NG1NL1} (as $y_1$) and \ref{figure:prop_sell_day_NG1NL1} (as $y_2$).\footnote{The algorithm shown by \citet{muggeo2008} was used. The number of kinks was set at 2 (i.e., 3 lines).} The regression is conducted separately for the loss and the gain domains of each figure (i.e., four regressions). 
 
-The resulting fitted lines are shown in Figure \ref{figure:segment}. Table \ref{table:segment} shows whether the fitted lines meet the conditions for ranges of $x$ segmented at each kink points in $y_1$ and $y_2$. $\frac{b_2}{a_2}-\frac{b_1}{a_1}$ is negative for most range of |x|, indicating that Condition 1 is mostly met. Also, both $b_1$ and $b_2$ get smaller in the absolute term as |x| increases, indicating that Condition 2 is met.   
-Table \ref{} also shows values of $A$ and $y_3'$.
+The resulting fitted lines are shown in the left and the middle panels in Figure \ref{figure:segment}. The right panel plots data points and lines calculated by the left panel data divided by the middle panel data.
+Table \ref{table:segment} shows whether the fitted lines meet the conditions for ranges of $x$ segmented at each kink points in $y_1$ and $y_2$. Condition 1 is met for most values of $x$, except four short ranges of $x$. In addition, both $b_1$ and $b_2$ get smaller in the absolute term as |x| increases, indicating that Condition 2 is met.   
+Table \ref{table:segment} also shows values of $y_3'$. It is obvious that the $y_3'$ for $x=[-0.019, 0.000]$. This is reflected to the steep upward curve in the region of small losses in the right panel of Figure \ref{figure:segment}.
 
 
 \begin{figure}[H]
@@ -561,20 +489,20 @@ Table \ref{} also shows values of $A$ and $y_3'$.
 	\centering
 	\caption{Results of Piecewise Linear Regressions}
 	\label{table:segment}
-	\begin{tabular}{lcccccl}
+	\begin{tabular}{ccccccc}
 		\hline
 		Range of $x$ & $a_1$ & $b_1$ & $a_2$ & $b_2$ & Condition 1 & Range of $y_3'$ \\ 
 		\hline
-		[-0.800, -0.171] & 0.002 &  0.002 & 0.020 &  0.002 & Y & [ 0.094,  0.111] \\ \relax
+		[-0.800, -0.171] & 0.002 &  0.002 & 0.020 &  0.002 & Y & [ 0.094, ~0.111] \\ \relax
 		[-0.171, -0.130] & 0.002 &  0.002 & 0.027 &  0.041 &   & [-0.118, -0.100] \\ \relax
-		[-0.130, -0.030] & 0.004 &  0.010 & 0.027 &  0.041 & Y & [ 0.190,  0.270] \\ \relax
+		[-0.130, -0.030] & 0.004 &  0.010 & 0.027 &  0.041 & Y & [ 0.190, ~0.270] \\ \relax
 		[-0.030, -0.019] & 0.004 &  0.010 & 0.031 &  0.193 &   & [-0.556, -0.478] \\ \relax
-		[-0.019,  0.000] & 0.006 &  0.130 & 0.031 &  0.193 & Y & [ 3.003,  3.858] \\ \relax
-		[ 0.000,  0.063] & 0.007 & -0.041 & 0.030 & -0.134 &   & [-0.529, -0.274] \\ \relax
-		[ 0.063,  0.069] & 0.005 & -0.007 & 0.030 & -0.134 & Y & [ 1.042,  1.120] \\ \relax
-		[ 0.069,  0.248] & 0.005 & -0.007 & 0.023 & -0.034 & Y & [ 0.029,  0.058] \\ \relax
-		[ 0.248,  0.291] & 0.005 & -0.007 & 0.016 & -0.006 &   & [-0.411, -0.398] \\ \relax
-		[ 0.291,  0.800] & 0.003 &  0.000 & 0.016 & -0.006 & Y & [ 0.072,  0.110] \\ 
+		[-0.019, ~0.000] & 0.006 &  0.130 & 0.031 &  0.193 & Y & [ 3.003, ~3.858] \\ \relax
+		[ 0.000, ~0.063] & 0.007 & -0.041 & 0.030 & -0.134 &   & [-0.529, -0.274] \\ \relax
+		[ 0.063, ~0.069] & 0.005 & -0.007 & 0.030 & -0.134 & Y & [ 1.042, ~1.120] \\ \relax
+		[ 0.069, ~0.248] & 0.005 & -0.007 & 0.023 & -0.034 & Y & [ 0.029, ~0.058] \\ \relax
+		[ 0.248, ~0.291] & 0.005 & -0.007 & 0.016 & -0.006 &   & [-0.411, -0.398] \\ \relax
+		[ 0.291, ~0.800] & 0.003 &  0.000 & 0.016 & -0.006 & Y & [ 0.072, ~0.110] \\ 
 		\hline
 	\end{tabular}
 \end{table}

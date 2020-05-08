@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  7 MAY 2020 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  8 MAY 2020 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,38 +655,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 <figures/illustration.pdf, id=14, 1806.75pt x 505.89pt>
 File: figures/illustration.pdf Graphic file (type pdf)
 <use figures/illustration.pdf>
-Package pdftex.def Info: figures/illustration.pdf  used on input line 67.
+Package pdftex.def Info: figures/illustration.pdf  used on input line 69.
 (pdftex.def)             Requested size: 418.76997pt x 117.2554pt.
 
-Overfull \hbox (38.0721pt too wide) in paragraph at lines 67--68
+Overfull \hbox (38.0721pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
 
-Overfull \hbox (32.48334pt too wide) in paragraph at lines 79--94
+Overfull \hbox (32.48334pt too wide) in paragraph at lines 81--96
  [][] 
  []
 
 [2 <./figures/illustration.pdf>]
-Overfull \hbox (13.72926pt too wide) in paragraph at lines 101--102
+Overfull \hbox (13.72926pt too wide) in paragraph at lines 103--104
 \T1/cmr/m/n/10.95 In this sec-tion, we use stock trad-ing data pro-vided by a l
 arge main-stream stock-bro-ker
  []
 
 
-Overfull \hbox (9.32753pt too wide) in paragraph at lines 109--109
+Overfull \hbox (9.32753pt too wide) in paragraph at lines 111--111
 []\T1/cmr/bx/n/12 The Ef-fect of Weighted-Averaging across Stocks with Dif-fer-
 ent
  []
 
 
-Overfull \hbox (10.60056pt too wide) in paragraph at lines 111--112
+Overfull \hbox (10.60056pt too wide) in paragraph at lines 113--114
 \T1/cmr/m/n/10.95 pe-riod no more than 50 days, we il-lus-trate the ef-fect of 
 av-er-ag-ing sell-ing prob-a-bil-i-ties
  []
 
 [3]
-Overfull \hbox (3.6908pt too wide) in paragraph at lines 115--116
+Overfull \hbox (3.6908pt too wide) in paragraph at lines 117--118
 \T1/cmr/m/n/10.95 prob-a-bil-ity be-tween the left-most and the sec-ond left-mo
 st pan-els with the dif-fer-ence
  []
@@ -696,23 +696,23 @@ st pan-els with the dif-fer-ence
 File: figures/barc_schedule_daily_by_days_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_by_days_less50_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_daily_by_days_less50_3.pdf  used
- on input line 119.
+ on input line 121.
 (pdftex.def)             Requested size: 380.69788pt x 177.65852pt.
 [4 <./figures/barc_schedule_daily_by_days_less50_3.pdf>]
 <figures/barc_hist_return_daily_less50_3.pdf, id=46, 1084.05pt x 505.89pt>
 File: figures/barc_hist_return_daily_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_hist_return_daily_less50_3.pdf>
 Package pdftex.def Info: figures/barc_hist_return_daily_less50_3.pdf  used on i
-nput line 128.
+nput line 130.
 (pdftex.def)             Requested size: 380.69788pt x 177.65852pt.
 <figures/barc_schedule_daily_less50_3.pdf, id=47, 1084.05pt x 505.89pt>
 File: figures/barc_schedule_daily_less50_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_less50_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_daily_less50_3.pdf  used on inpu
-t line 140.
+t line 142.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Overfull \hbox (14.11215pt too wide) in paragraph at lines 146--148
+Overfull \hbox (14.11215pt too wide) in paragraph at lines 148--150
 \T1/cmr/m/n/10.95 pe-riod no more than 50 days for il-lus-tra-tion pur-pose. If
  we do the weighted-averaging
  []
@@ -723,15 +723,15 @@ ly_less50_3.pdf>]
 File: figures/barc_schedule_daily_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_daily_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_daily_NG1_NL1_3.pdf  used on inp
-ut line 155.
+ut line 157.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
 [6 <./figures/barc_schedule_daily_NG1_NL1_3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--170
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
 
  []
 
@@ -739,10 +739,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--170
 File: figures/barc_port_sell_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_port_sell_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_port_sell_NG1_NL1_3.pdf  used on input li
-ne 185.
+ne 187.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 [7 <./figures/barc_port_sell_NG1_NL1_3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
@@ -750,26 +750,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 File: figures/barc_schedule_sell_day_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_schedule_sell_day_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_schedule_sell_day_NG1_NL1_3.pdf  used on 
-input line 202.
+input line 204.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Overfull \hbox (7.72682pt too wide) in paragraph at lines 207--208
+Overfull \hbox (7.72682pt too wide) in paragraph at lines 209--210
 \T1/cmr/m/n/10.95 stock $\OML/cmm/m/it/10.95 i$ \T1/cmr/m/n/10.95 be-ing sold (
 Fig-ure 5[]) di-vided by the op-po-sitely asym-met-ric in-verse V-shaped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--212
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
@@ -778,347 +778,332 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 File: figures/barc_other_sold_daily_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_other_sold_daily_NG1_NL1_3.pdf>
 Package pdftex.def Info: figures/barc_other_sold_daily_NG1_NL1_3.pdf  used on i
-nput line 226.
+nput line 228.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 <figures/barc_holding_days_i_j_NG1_NL1.pdf, id=100, 578.16pt x 578.16pt>
 File: figures/barc_holding_days_i_j_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_i_j_NG1_NL1.pdf>
 Package pdftex.def Info: figures/barc_holding_days_i_j_NG1_NL1.pdf  used on inp
-ut line 240.
+ut line 242.
 (pdftex.def)             Requested size: 190.34894pt x 190.34346pt.
  [9 <./figures/barc_other_sold_daily_NG1_NL1_3.pdf>]
 <figures/barc_R_i_abs_R_j_NG1_NL1.pdf, id=114, 1084.05pt x 505.89pt>
 File: figures/barc_R_i_abs_R_j_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_R_i_abs_R_j_NG1_NL1.pdf>
 Package pdftex.def Info: figures/barc_R_i_abs_R_j_NG1_NL1.pdf  used on input li
-ne 253.
+ne 255.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
  [10 <./figures/barc_holding_days_i_j_NG1_NL1.pdf> <./figures/barc_R_i_abs_R_j_
 NG1_NL1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 <figures/sim_R_i_abs_R_j.pdf, id=132, 1084.05pt x 505.89pt>
 File: figures/sim_R_i_abs_R_j.pdf Graphic file (type pdf)
 <use figures/sim_R_i_abs_R_j.pdf>
-Package pdftex.def Info: figures/sim_R_i_abs_R_j.pdf  used on input line 268.
+Package pdftex.def Info: figures/sim_R_i_abs_R_j.pdf  used on input line 270.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
 
  []
 
 
-Overfull \hbox (48.7267pt too wide) in paragraph at lines 282--284
+Overfull \hbox (48.7267pt too wide) in paragraph at lines 284--286
 \T1/cmr/m/n/10.95 rea-son for the op-po-sitely asym-met-ric in-verse V-shape in
  $\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 stock []i []is [
 ]in []a []sell[]day []portfolio\OT1/cmr/m/n/10.95 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 [11 <./figures/sim_R_i_abs_R_j.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 288--297
+Underfull \hbox (badness 10000) in paragraph at lines 290--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--308
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--313
+Underfull \hbox (badness 10000) in paragraph at lines 311--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
 
  []
 
 
-Overfull \hbox (23.58917pt too wide) in paragraph at lines 319--320
+Overfull \hbox (23.58917pt too wide) in paragraph at lines 321--322
 []\T1/cmr/m/n/10.95 While "hold-ing pe-riod", "ab-so-lute re-turn since pur-cha
 se", and "sell-ing prob-a-bil-ity"
  []
 
 [12]
-Overfull \hbox (0.91777pt too wide) in paragraph at lines 322--323
+Overfull \hbox (0.91777pt too wide) in paragraph at lines 324--325
 \T1/cmr/m/n/10.95 pe-riod in-creases, they pay less at-ten-tion with a less sen
 -si-tiv-ity to price move-ments.
  []
 
 
-Overfull \hbox (1.70433pt too wide) in paragraph at lines 322--323
+Overfull \hbox (1.70433pt too wide) in paragraph at lines 324--325
 \T1/cmr/m/n/10.95 In ad-di-tion, due to the os-trich ef-fect, the sen-si-tiv-it
 y of at-ten-tion to price move-ment
  []
 
 
-Overfull \hbox (23.16283pt too wide) in paragraph at lines 324--324
+Overfull \hbox (23.16283pt too wide) in paragraph at lines 326--326
 []\T1/cmr/bx/n/14.4 Details of Di-vi-sion of Two Asym-met-ric In-verse V-shapes
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--337
+Underfull \hbox (badness 10000) in paragraph at lines 336--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--340
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--346
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--352
+Underfull \hbox (badness 10000) in paragraph at lines 349--354
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 353--355
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--367
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--370
+Underfull \hbox (badness 10000) in paragraph at lines 383--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 390--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--382
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 400--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
+Underfull \hbox (badness 10000) in paragraph at lines 404--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
+Underfull \hbox (badness 10000) in paragraph at lines 408--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 397--400
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--404
+Underfull \hbox (badness 10000) in paragraph at lines 418--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--414
+Underfull \hbox (badness 10000) in paragraph at lines 422--425
 
  []
 
 <figures/illustration_color.pdf, id=153, 1084.05pt x 505.89pt>
 File: figures/illustration_color.pdf Graphic file (type pdf)
 <use figures/illustration_color.pdf>
-Package pdftex.def Info: figures/illustration_color.pdf  used on input line 421
+Package pdftex.def Info: figures/illustration_color.pdf  used on input line 431
 .
 (pdftex.def)             Requested size: 342.62576pt x 159.88881pt.
 <figures/illustration_together.pdf, id=154, 794.97pt x 433.62pt>
 File: figures/illustration_together.pdf Graphic file (type pdf)
 <use figures/illustration_together.pdf>
 Package pdftex.def Info: figures/illustration_together.pdf  used on input line 
-430.
+440.
 (pdftex.def)             Requested size: 532.9747pt x 290.72238pt.
 
-Overfull \hbox (97.79294pt too wide) in paragraph at lines 429--431
+Overfull \hbox (97.79294pt too wide) in paragraph at lines 439--441
  []|  [] 
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 431--431
+Underfull \hbox (badness 1635) in paragraph at lines 441--441
 []\T1/cmr/m/n/10.95 Figure 13: \T1/cmr/m/n/10 Il-lus-tra-tion: Di-vi-sion of tw
 o asym-met-ric in-verse V-shaped curve
  []
 
 [15 <./figures/illustration_color.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 435--437
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--441
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--445
+Underfull \hbox (badness 10000) in paragraph at lines 451--458
 
  []
 
 [16 <./figures/illustration_together.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+Underfull \hbox (badness 10000) in paragraph at lines 459--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--458
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
 [17]
-<figures/segment.pdf, id=177, 1806.75pt x 505.89pt>
+<figures/segment.pdf, id=176, 1806.75pt x 505.89pt>
 File: figures/segment.pdf Graphic file (type pdf)
 <use figures/segment.pdf>
-Package pdftex.def Info: figures/segment.pdf  used on input line 483.
+Package pdftex.def Info: figures/segment.pdf  used on input line 506.
 (pdftex.def)             Requested size: 456.83629pt x 127.91568pt.
 
-Overfull \hbox (21.65453pt too wide) in paragraph at lines 482--484
+Overfull \hbox (21.65453pt too wide) in paragraph at lines 505--507
  []|  [] 
  []
 
 
-Overfull \hbox (5.17429pt too wide) in paragraph at lines 492--508
+Overfull \hbox (5.17429pt too wide) in paragraph at lines 515--531
  [][] 
  []
 
 
-LaTeX Warning: Reference `' on page 18 undefined on input line 518.
+LaTeX Warning: Reference `' on page 18 undefined on input line 541.
 
 [18 <./figures/segment.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--530
+Underfull \hbox (badness 10000) in paragraph at lines 549--553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--536
+Underfull \hbox (badness 10000) in paragraph at lines 556--559
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--541
+Underfull \hbox (badness 10000) in paragraph at lines 562--564
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
 
  []
 
 [20]
-Overfull \hbox (46.72346pt too wide) in paragraph at lines 563--563
+Overfull \hbox (46.72346pt too wide) in paragraph at lines 586--586
 []\T1/cmr/bx/n/14.4 Literature Re-view by Ben-David and Hir-sh-leifer
  []
 
 
-Overfull \hbox (77.64066pt too wide) in paragraph at lines 578--610
+Overfull \hbox (77.64066pt too wide) in paragraph at lines 601--633
  [][] 
  []
 
-<figures/barc_holding_days_daily_3.pdf, id=195, 1084.05pt x 505.89pt>
+<figures/barc_holding_days_daily_3.pdf, id=194, 1084.05pt x 505.89pt>
 File: figures/barc_holding_days_daily_3.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_daily_3.pdf>
 Package pdftex.def Info: figures/barc_holding_days_daily_3.pdf  used on input l
-ine 617.
+ine 640.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 [21
 
 ]
-<figures/return_dist.pdf, id=199, 1734.48pt x 578.16pt>
+<figures/return_dist.pdf, id=198, 1734.48pt x 578.16pt>
 File: figures/return_dist.pdf Graphic file (type pdf)
 <use figures/return_dist.pdf>
-Package pdftex.def Info: figures/return_dist.pdf  used on input line 633.
+Package pdftex.def Info: figures/return_dist.pdf  used on input line 656.
 (pdftex.def)             Requested size: 380.69788pt x 126.89565pt.
  [22 <./figures/barc_holding_days_daily_3.pdf> <./figures/return_dist.pdf>]
-Overfull \hbox (6.22153pt too wide) in paragraph at lines 639--639
+Overfull \hbox (6.22153pt too wide) in paragraph at lines 662--662
 []\T1/cmr/bx/n/14.4 More De-tails of Con-di-tion-ing on Sell-Days 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
+Underfull \hbox (badness 10000) in paragraph at lines 691--692
 
  []
 
-<figures/barc_ABC_NG1_NL1_3.pdf, id=214, 1300.86pt x 505.89pt>
+<figures/barc_ABC_NG1_NL1_3.pdf, id=213, 1300.86pt x 505.89pt>
 File: figures/barc_ABC_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_ABC_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 700
+Package pdftex.def Info: figures/barc_ABC_NG1_NL1_3.pdf  used on input line 723
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
 [23
 
 ]
-<figures/barc_B12_NG1_NL1_3.pdf, id=218, 1300.86pt x 505.89pt>
+<figures/barc_B12_NG1_NL1_3.pdf, id=217, 1300.86pt x 505.89pt>
 File: figures/barc_B12_NG1_NL1_3.pdf Graphic file (type pdf)
 <use figures/barc_B12_NG1_NL1_3.pdf>
-Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 707
+Package pdftex.def Info: figures/barc_B12_NG1_NL1_3.pdf  used on input line 730
 .
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
  [24 <./figures/barc_ABC_NG1_NL1_3.pdf> <./figures/barc_B12_NG1_NL1_3.pdf>] (./
@@ -1143,27 +1128,26 @@ t/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c
-:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/font
-s/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-su
-per/sfrm0900.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm10
-00.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:
-/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2
-017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-
-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on dissecting_disposition_effect.pdf (25 pages, 1668758 bytes).
+fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm0900.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1
+095.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c
+:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on dissecting_disposition_effect.pdf (25 pages, 1659837 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
+ 318 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

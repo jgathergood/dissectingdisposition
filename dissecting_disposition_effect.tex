@@ -135,7 +135,7 @@ Figure \ref{figure:dist_ret_by_days_less50} plots the distribution of returns si
 
 Averaging the selling schedules in Figure \ref{figure:prop_by_days_less50} across stock groups, weighted by the distribution of returns in Figure \ref{figure:dist_ret_by_days_less50} leads to Figure \ref{figure:prop_less50}. 
 %The shape of the selling schedule in Figure \ref{figure:prop_less50} is quite different from those in Figure \ref{figure:prop_by_days_less50}.
-The selling schedule in Figure \ref{figure:prop_less50} has a peak around zero return. This is because two things work together in the weighted-averaging: (i) As seen in the comparison across panels in Figure \ref{figure:prop_by_days_less50}, stocks with a short holding period has a higher selling probability than stocks with a longer holding period and (ii) As seen in Figure \ref{figure:dist_ret_by_days_less50}, the distribution of returns of the stocks with a short holding period highly concentrates around zero return. 
+The selling schedule in Figure \ref{figure:prop_less50} has a peak around zero return. This is because two things work together in the weighted-averaging: (i) As seen in the comparison across panels in Figure \ref{figure:prop_by_days_less50}, stocks with a short holding period has a higher selling probability than stocks with a longer  period and (ii) As seen in Figure \ref{figure:dist_ret_by_days_less50}, the distribution of returns of the stocks with a short holding period highly concentrates around zero return. 
 
 \begin{figure}[H]
 	\centering
@@ -350,7 +350,7 @@ Then, $y_3= \frac{b_1}{b_2}+\frac{A}{\frac{a_2}{b_2}+x}$.\\
 This means that the sign of $A$ determines the location of the hyperbola.
 That is:\\
 The vertices are $(x_c+\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c-\sqrt{A})$. for $A>0$ and\\
-The vertices are $(x_c-\sqrt{A}, y_c+\sqrt{A})$ and $(x_c+\sqrt{A}, y_c-\sqrt{A})$. for $A<0$.\footnote{The distance between the center and the vertices is $\sqrt{2A}$. The linear eccentricity is $2\sqrt{A}$ and the eccentricity is $\sqrt{2}$. The radius of curvature at the vertices is $\sqrt{2A}$. Refer https://en.wikipedia.org/wiki/Hyperbola.}\\
+The vertices are $(x_c-\sqrt{\mbox{-}A}, y_c+\sqrt{\mbox{-}A})$ and $(x_c+\sqrt{\mbox{-}A}, y_c-\sqrt{\mbox{-}A})$. for $A<0$.\footnote{The distance between the center and the vertices is $\sqrt{2|A|}$. The linear eccentricity is $2\sqrt{|A|}$ and the eccentricity is $\sqrt{2}$. The radius of curvature at the vertices is $\sqrt{2|A|}$. Refer https://en.wikipedia.org/wiki/Hyperbola.}\\
 
 \noindent
 Note that, when $A<0$, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$. This means that the hyperbola is upward at any value of $x$. We can confirm it by  taking the first derivative of $y_3$. 
@@ -389,7 +389,7 @@ We denote:\\
 
 \noindent
 Specifically, we assume that $Y_1$ and $Y_2$ can be approximated with many lines, $y^i_1$, $i=\{1,2,..\}$ and $y^j_2$, $j=\{1,2,..\}$, respectively.
-To make the notations simple, for a given small range of $x$, without specifying $i$ and $j$, we denote a corresponding fitted line on $Y_1$ and $Y_2$ as $y_1(=a_1+b_1x)$ and $y_2(=a_2+b_2x)$, respectively, and denote a corresponding part of $Y_3$ as $y_3$ (a part of hyperbola).\\
+To make the notations simple, for a given small range of $x$, without specifying $i$ and $j$, we denote a corresponding fitted line on $Y_1$ and $Y_2$ as $y_1(=a_1+b_1x)$ and $y_2(=a_2+b_2x)$, respectively, and denote a corresponding part of $Y_3$ as $y_3$ (a part of a rectangular hyperbola).\\
 
 %\noindent
 %Note that, by construction, $y_2$ is always larger than $y_1$ (i.e., $y_2>y_1$ for $N \geq2$). This leads to $a_2>a_1$.\\
@@ -416,15 +416,15 @@ Therefore, regardless of a value of $x$, the condition to make $y_3$ upward is $
 When Condition 1 is met, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\
 
 \noindent
-In addition, because $y_2$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding $y_3$ locates lower-right of the center.
-Similarly, in the gain domain, $x$ should be less than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding $y_3$ locates upper-left of the center.\\ 
+In addition, because $y_2$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the rectangular hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding branch of $y_3$ locates lower-right of the center (the fourth quadrant).\footnote{The $x$-intercept of the rectangular hyperbola is $x=-\frac{a_1}{b_1}$.}
+Similarly, in the gain domain, $x$ should be less than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the rectangular hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding branch of $y_3$ locates upper-left of the center (the second quadrant).\\ 
 
 \noindent
 \textbf{Condition 1}: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $y_1$ and a corresponding $y_2$.\\
 (Condition 1 is for making the curve of each $y_3$ upward.)\\
 
 \noindent
-A division of two lines resulting in a part of a rectangular hyperbola is illustrated in Figure \ref{figure:illustration_hyperbola}. In each column, the blue line divided by the red line in the top panel results in the colored part of the hyperbola in the bottom panel. The colored part in the bottom panels corresponds to the same-colored curve in the right panel of Figure \ref{figure:illustration_color}.
+A division of two lines resulting in a part of a rectangular hyperbola is illustrated in Figure \ref{figure:illustration_hyperbola}. In each column, the blue line divided by the red line in the top panel results in the colored part of the rectangular hyperbola in the bottom panel. The colored part in the bottom panels corresponds to the same-colored curve in the right panel of Figure \ref{figure:illustration_color}.
 
 \begin{figure}[H]
 	\centering
@@ -452,9 +452,12 @@ In other words, $Y_3$ gets flatter as $|x|$ increases in both domains. \\
 As seen in the middle panel of Figure \ref{figure:illustration_color}, $Y_2$ is convex both in the gain and the loss domains. Thus the $x$-intercept of each fitted line, $y_2$, gets far from $x=0$, as a range of $x$, which the fitted line corresponds to, gets far from $x=0$. 
 Let $x_k$ denote a value of $x$ at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines).
 Since the $x$-intercept of $y_2$ is a vertical asymptote of the corresponding $y_3$, the distance between the vertical asymptote and $x_k$ is larger for $y_3$ corresponding to a range of $x$ which is far from $x=0$. 
-%This means that, at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines on $Y_2$), the distance between $x$ for the kink point and $\mbox{-}\frac{a_2}{b_2}$ jumps up. 
-Because it can be geometrically said that, at an intersection of two hyperbolas having a vertical asymptote, one having a larger horizontal distance between its vertical asymptote and the intersection should be flatter than the other, the slope of $Y_3$ gets flatter when $x$ passes each kink point from the origin as long as $Y_2$ is convex.
-The larger the difference in the slope of two adjacent $y_2$s the more the difference in the slope of corresponding $y_3$s at $x_k$. Therefore, the more convex the curve of $Y_2$ in each domain the more likely the curve of $Y_3$ gets flatter as $|x|$ increases. Note that, within each hyperbola $y_3$, the curve gets steeper as $|x|$ increases. This is due to the shape of hyperbola with negative $A$. However, given that the range of $x$ for each $y_3$ is small, the change in the slope within $y_3$ is visually not large (see the right panel of Figure \ref{figure:illustration_color}).\\    
+%This means that, at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines on $Y_2$), the distance between $x$ for the kink point and $\mbox{-}\frac{a_2}{b_2}$ jumps up.
+ 
+Branch of two rectangular hyperbolas which have a vertical asymptote and locate in the same quadrant have at most two intersections in the quadrant. 
+It can be geometrically said that, at an intersection (or one closer to the asymptotes in the case of two intersections) of such branches of two rectangular hyperbolas, one having a larger horizontal distance between its vertical asymptote and the intersection should be flatter than the other. Thus, the slope of $Y_3$ gets flatter when $x$ passes each kink point from the origin as long as $Y_2$ is convex.
+%The larger the difference in the slope of two adjacent $y_2$s the more the difference in the slope of corresponding $y_3$s at $x_k$. Therefore, the more convex the curve of $Y_2$ in each domain the more likely the curve of $Y_3$ gets flatter as $|x|$ increases. 
+Note that, within each rectangular hyperbola $y_3$, the curve gets steeper as $|x|$ increases. This is due to the shape of rectangular hyperbola with negative $A$. However, given that the range of $x$ for each $y_3$ is small, the change in the slope within $y_3$ is visually not large (see the right panel of Figure \ref{figure:illustration_color}).\\    
 
 \noindent
 \textbf{Condition 2}: $Y_2$ is convex in each of the gain and the loss domains.\\

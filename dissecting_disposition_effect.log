@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  12 MAY 2020 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  19 MAY 2020 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1015,109 +1015,101 @@ Overfull \hbox (5.17429pt too wide) in paragraph at lines 518--534
  [][] 
  []
 
-
-LaTeX Warning: Reference `' on page 18 undefined on input line 544.
-
 [18 <./figures/segment.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
+LaTeX Warning: Reference `' on page 19 undefined on input line 544.
+
+
+Overfull \hbox (9.85788pt too wide) in paragraph at lines 549--553
+\T1/cmr/m/n/10.95 investor-account-day is de-ter-mined by the re-turn since pur
+-chase of stock $\OML/cmm/m/it/10.95 i$ \T1/cmr/m/n/10.95 ($\OML/cmm/m/it/10.95
+ Return[]$\T1/cmr/m/n/10.95 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--562
+Underfull \hbox (badness 10000) in paragraph at lines 549--553
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--567
-
- []
+LaTeX Warning: Reference `' on page 20 undefined on input line 582.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+LaTeX Warning: Reference `' on page 20 undefined on input line 582.
 
- []
 
-[20]
-Overfull \hbox (46.72346pt too wide) in paragraph at lines 589--589
+LaTeX Warning: Reference `' on page 20 undefined on input line 583.
+
+[20] [21]
+Overfull \hbox (46.72346pt too wide) in paragraph at lines 599--599
 []\T1/cmr/bx/n/14.4 Literature Re-view by Ben-David and Hir-sh-leifer
  []
 
 
-Overfull \hbox (77.64066pt too wide) in paragraph at lines 604--636
+Overfull \hbox (77.64066pt too wide) in paragraph at lines 614--646
  [][] 
  []
 
-<figures/barc_holding_days_daily_NG_NL.pdf, id=195, 1084.05pt x 505.89pt>
+<figures/barc_holding_days_daily_NG_NL.pdf, id=199, 1084.05pt x 505.89pt>
 File: figures/barc_holding_days_daily_NG_NL.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_daily_NG_NL.pdf>
 Package pdftex.def Info: figures/barc_holding_days_daily_NG_NL.pdf  used on inp
-ut line 643.
+ut line 653.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
-[21
+[22
 
 ]
-<figures/return_dist.pdf, id=199, 1734.48pt x 578.16pt>
+<figures/return_dist.pdf, id=203, 1734.48pt x 578.16pt>
 File: figures/return_dist.pdf Graphic file (type pdf)
 <use figures/return_dist.pdf>
-Package pdftex.def Info: figures/return_dist.pdf  used on input line 659.
+Package pdftex.def Info: figures/return_dist.pdf  used on input line 669.
 (pdftex.def)             Requested size: 380.69788pt x 126.89565pt.
- [22 <./figures/barc_holding_days_daily_NG_NL.pdf> <./figures/return_dist.pdf>]
+ [23 <./figures/barc_holding_days_daily_NG_NL.pdf> <./figures/return_dist.pdf>]
 
-Overfull \hbox (6.22153pt too wide) in paragraph at lines 665--665
+Overfull \hbox (6.22153pt too wide) in paragraph at lines 675--675
 []\T1/cmr/bx/n/14.4 More De-tails of Con-di-tion-ing on Sell-Days 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
-<figures/barc_ABC_NG1_NL1.pdf, id=214, 1300.86pt x 505.89pt>
+<figures/barc_ABC_NG1_NL1.pdf, id=218, 1300.86pt x 505.89pt>
 File: figures/barc_ABC_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_ABC_NG1_NL1.pdf>
-Package pdftex.def Info: figures/barc_ABC_NG1_NL1.pdf  used on input line 726.
+Package pdftex.def Info: figures/barc_ABC_NG1_NL1.pdf  used on input line 736.
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
-[23
+[24
 
 ]
-<figures/barc_B12_NG1_NL1.pdf, id=218, 1300.86pt x 505.89pt>
+<figures/barc_B12_NG1_NL1.pdf, id=222, 1300.86pt x 505.89pt>
 File: figures/barc_B12_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_B12_NG1_NL1.pdf>
-Package pdftex.def Info: figures/barc_B12_NG1_NL1.pdf  used on input line 733.
+Package pdftex.def Info: figures/barc_B12_NG1_NL1.pdf  used on input line 743.
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
- [24 <./figures/barc_ABC_NG1_NL1.pdf> <./figures/barc_B12_NG1_NL1.pdf>]
-(./dissecting_disposition_effect.bbl) [25] (./dissecting_disposition_effect.aux
+ [25 <./figures/barc_ABC_NG1_NL1.pdf> <./figures/barc_B12_NG1_NL1.pdf>]
+(./dissecting_disposition_effect.bbl) [26] (./dissecting_disposition_effect.aux
 )
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14134 strings out of 492982
- 271698 string characters out of 6136225
- 316321 words of memory out of 5000000
- 17386 multiletter control sequences out of 15000+600000
+ 14137 strings out of 492982
+ 271730 string characters out of 6136225
+ 316348 words of memory out of 5000000
+ 17389 multiletter control sequences out of 15000+600000
  17794 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,54p,1294b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1134,22 +1126,23 @@ mi9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c
 ist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm0600.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sfrm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
-frm0900.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on dissecting_disposition_effect.pdf (25 pages, 1298732 bytes).
+m/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+cm-super/sfrm0600.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+frm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfti1095.pfb>
+Output written on dissecting_disposition_effect.pdf (26 pages, 1308334 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
+ 332 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

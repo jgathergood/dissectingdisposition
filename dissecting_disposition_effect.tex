@@ -511,7 +511,7 @@ Table \ref{table:segment} also shows values of $y_3'$. It is obvious that the $y
 	\label{figure:segment}
 \end{figure}
 
-\begin{table}[ht] % \relax is needed if we [] follows \\
+\begin{table}[H] % \relax is needed if we [] follows \\
 	\centering
 	\caption{Results of Piecewise Linear Regressions}
 	\label{table:segment}
@@ -536,41 +536,51 @@ Table \ref{table:segment} also shows values of $y_3'$. It is obvious that the $y
 
 
 
-\section{Simulation}
+\section{Demonstration by Simulation}
 
 \subsection{Method for the Simulation}
-Finally, we replicate the empirical findings with simulated data where stock prices follow the geometric Brownian motion and investors' selling decisions are determined by the return since purchase and the number of days since purchase, together with 6 model free parameters.
+Finally, we replicate the empirical findings with simulated data where stock prices follow the geometric Brownian motion and investors' selling decisions are determined by the return since purchase and the number of days since purchase, together with XXX model free parameters.
 
-In the simulation, each day of 5 years, xxx investors construct an initial portfolio consisting of 5 stocks (i.e., $252\times5=1,260$ days). Thus we have $1,260\times xxxx$ investors in the simulated data, each of whom buy 5 stocks on an initial purchase day spanning from Day-1 to Day-1260. The stock prices follows the geometric Brownian motion with the drift parameter ($\mu$) and the volatility parameter ($\sigma$). We set $\mu=0$ and draw $\sigma$ from an approximated distribution of annualized standard deviations (i.e., volatility) of daily returns taken from the empirical data, shown in Figure \ref{}.\footnote{We assume zero correlation in price movement across stocks.}
+In the simulation, each day of 5 years, xxx investors open a trading account. They construct an initial portfolio consisting of 5 stocks (i.e., $252\times5=1,260$ days) within 60-days investment window since the account open date. They buy one stock on a day which is randomly chosen within the investment window. The stock prices follows the geometric Brownian motion with the drift parameter ($\mu$) and the volatility parameter ($\sigma$). We set $\mu=0$ and draw $\sigma$ from an approximated distribution of annualized standard deviations (i.e., volatility) of daily returns taken from the empirical data, shown in Figure \ref{}.\footnote{We assume zero correlation in price movement across stocks.}
 
 Investors' selling decisions are determined by the model introduced below. We assume no additional purchase after the initial portfolio is constructed. Then, we extract investor-days where at least one gain and one loss are in the portfolio, and compute the selling schedule on return in a daily portfolio sample and that in a sell-day portfolio sample.
 
-
 \subsection{Model of Selling Decisions}
-We introduce a model of selling decisions where the selling probability on each investor-account-day is determined by the return since purchase ($Return$) and the number of days since purchase ($Days$). The model assumes that the selling probability is a linearly increasing function of an absolute return while the sensitivity of the selling probability to the absolute return is lower for losses than for gains (i.e., an asymmetric V-shape). The selling probability as a function of $Return$ is expressed as:\\
+We introduce a model of selling decisions where the selling probability on each investor-account-day is determined by the return since purchase of stock $i$ ($Return_i$) and the number of days since purchase of stock $i$ ($Days_i$). 
+The main features we observed in the empirical data are:\\
+(1) The selling probability increases as an absolute return increases while the sensitivity of the selling probability is larger for the gain than for losses (i.e., an asymmetric V-shape).
+(2) The selling probability decreases as a holding period increases while the sensitivity of the selling probability is larger in short holding periods than in long holding periods. In addition, the decay of the probability is lager for losses than for gains.\\
 
-\noindent
-$P(Sell|Return)=\alpha+\gamma \beta  |Return|$, \\
-where $0\leq \gamma \leq 1$ when $Return\leq 0$, otherwise $\gamma=1$. \\
-In this equation, the parameter, $\gamma$, measures the disposition effect.\\
+In order to reflect the feature (1), our model employs the logistic function shown in Equation \ref{eq:logistic}.
+In the equation, $\alpha$ represents the selling probability when $Return_i=0$. $\beta$ is a sensitivity parameter. $0\leq \gamma \leq 1$ when $Return_i\leq 0$, otherwise $\gamma=1$. Thus, the sensitivity is attenuated for losses.
+\begin{equation}
+\label{eq:logistic}
+f(Return_i) = \alpha + \frac{1}{1+|Return_i|^{-\gamma \beta}}-0.5
+\end{equation}
 
-The model also assumes that the selling probability (or investors' attention to the stock) exponentially decays while a converging minimal probability is lower for losses than for gains. Specifically, the decay function ($D$) is expressed as:\\
+\vspace*{0.5cm}
+In order to reflect the feature (2), our model employs the double exponential decay function shown in Equation \ref{eq:decay}. In the equation, $\pi$ is a minimal selling probability for gains after many days passed since purchase (i.e., $\theta=1$) and $\theta \pi$ is that for losses ($0\leq \theta \leq 1$). $\phi$ represents the proportion of total decay which the fast decay attributes to. $S_1$ and $S_2$ are parameters measuring a stability of retention for the fast decay and for the slow decay, respectively ($S_1<S_2$).\footnote{Refer https://en.wikipedia.org/wiki/Forgetting\_curve.}
+\begin{equation}
+\label{eq:decay}
+d(Days_i) = \pi + \theta \phi (1-\pi) e^{\frac{\mbox{-}(Days_i-1)}{S_1}} + (1-\theta \phi) (1-\pi) e^{\frac{\mbox{-}(Days_i-1)}{S_2}}
+\end{equation}
 
-\noindent
-$D(Days)=\theta \pi + (1-\theta \pi) e^{\mbox{-}\frac{(Days\mbox{-}1)}{S}}$,\\
-where $\pi$ is a minimal selling probability for gains after many days passed since purchase (i.e., $\theta=1$) and $\theta \pi$ is that for losses ($0\leq \theta \leq 1$). $S$ is a parameter measuring a stability of retention.\footnote{Refer https://en.wikipedia.org/wiki/Forgetting\_curve.}\\
+\vspace*{0.5cm}
+The two functions together determine the selling probability as a function of $Return_i$ and $Days_i$ with xxx free parameters.
+\begin{equation}
+\label{eq:sell}
+P^{Daily}_{i} = f(Return_i)d(Days_i)
+\end{equation}
 
-All together, the selling probability on each investor-stock-day is expressed as:\\
-
-\noindent
-$P(Sell|Return, Days)=\bigg[\alpha+\gamma \beta |Return|\bigg]D(Days)$.\\
-
-In our model, two free parameters, $\gamma$ and $\theta$, lead to the disposition effect. The parameter, $\gamma$,  measures an attenuation of investors' sensitivity to the return since purchase when the stock is in loss while the parameter, $\theta$, measures an attenuation of investors' minimum attention paid to the stock when the stock is in loss. \\
+\vspace*{0.5cm}
+In the model, two free parameters, $\gamma$ and $\theta$, lead to the disposition effect. The parameter, $\gamma$,  measures an attenuation of investors' sensitivity to the return since purchase when the stock is in loss while the parameter, $\theta$, measures an attenuation of investors' minimum attention paid to the stock when the stock is in loss. \\
 
 In the simulation, we set parameter values as follows:\\
-$\alpha=$, $\beta=$, $\gamma=$, $\pi=$, $\theta=$, $S=$. \\
-\HS{In the current version, the parameter values were arbitrarily chosen just to have a reasonable results. Ideally, we should conduct an optimization on empirical data to get the parameter values. However, the optimization does not work well.}
+$\alpha=$, $\beta=$, $\gamma=$, $\theta=$, $\pi=$, $\phi$, $S_1=$, $S_2=$. \\
+\HS{In the current version, the parameter values were arbitrarily chosen just to have a reasonable results. Ideally, we should conduct an optimization on empirical data to get the parameter values. However, the optimization does not work well. Therefore the results are not model fitting but just a demonstration for creating a step-like selling schedule by simulation.}
 
+Figure \ref{} shows the shape of the double decay function and Figure \ref{} shows the shape of the logistic function.
+Figure \ref{} shows the selling schedule determined by these two functions.
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  25 MAY 2020 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.27)  1 JUN 2020 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,206 +897,231 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--354
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--389
+Underfull \hbox (badness 10000) in paragraph at lines 373--379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--393
+Overfull \hbox (36.11732pt too wide) in paragraph at lines 380--384
+\T1/cmr/m/n/10.95 We di-vide the whole range of val-ues of $\OML/cmm/m/it/10.95
+ x$ \T1/cmr/m/n/10.95 into many sub ranges $\OML/cmm/m/it/10.95 x[]; k \OT1/cmr
+/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 :::; \OMS/cmsy/m/n/10.95 
+^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/
+n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/c
+mr/m/n/10.95 2\OML/cmm/m/it/10.95 ; :::\OMS/cmsy/m/n/10.95 g$
+ []
+
+
+Overfull \hbox (3.00992pt too wide) in paragraph at lines 380--384
+\T1/cmr/m/n/10.95 ap-prox-i-mated with many lines, $\OML/cmm/m/it/10.95 y[]$ \T
+1/cmr/m/n/10.95 cor-re-spond-ing to $\OML/cmm/m/it/10.95 x[]; k \OT1/cmr/m/n/10
+.95 = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 :::; \OMS/cmsy/m/n/10.95 ^^@\OT1
+/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95
+ 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/
+10.95 2\OML/cmm/m/it/10.95 ; :::\OMS/cmsy/m/n/10.95 g$\T1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
+<figures/illustration_color.pdf, id=150, 1084.05pt x 505.89pt>
+File: figures/illustration_color.pdf Graphic file (type pdf)
+<use figures/illustration_color.pdf>
+Package pdftex.def Info: figures/illustration_color.pdf  used on input line 392
+.
+(pdftex.def)             Requested size: 418.76997pt x 195.42824pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--403
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-
+Overfull \hbox (38.0721pt too wide) in paragraph at lines 392--393
+ [][] 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 415--417
+Underfull \hbox (badness 10000) in paragraph at lines 399--402
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--421
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--425
-
- []
-
-<figures/illustration_color.pdf, id=153, 1084.05pt x 505.89pt>
-File: figures/illustration_color.pdf Graphic file (type pdf)
-<use figures/illustration_color.pdf>
-Package pdftex.def Info: figures/illustration_color.pdf  used on input line 431
-.
-(pdftex.def)             Requested size: 342.62576pt x 159.88881pt.
 <figures/illustration_together.pdf, id=154, 794.97pt x 433.62pt>
 File: figures/illustration_together.pdf Graphic file (type pdf)
 <use figures/illustration_together.pdf>
 Package pdftex.def Info: figures/illustration_together.pdf  used on input line 
-440.
+406.
 (pdftex.def)             Requested size: 532.9747pt x 290.72238pt.
 
-Overfull \hbox (97.79294pt too wide) in paragraph at lines 439--441
+Overfull \hbox (97.79294pt too wide) in paragraph at lines 405--407
  []|  [] 
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 441--441
+Underfull \hbox (badness 1635) in paragraph at lines 407--407
 []\T1/cmr/m/n/10.95 Figure 13: \T1/cmr/m/n/10 Il-lus-tra-tion: Di-vi-sion of tw
 o asym-met-ric in-verse V-shaped curve
  []
 
 [15 <./figures/illustration_color.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 448--450
+Overfull \hbox (0.8852pt too wide) in paragraph at lines 411--411
+[]\T1/cmr/bx/n/12 Conditions for Di-vi-sion of Two In-verse V-Shaped Prob-a-bil
+-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--461
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 [16 <./figures/illustration_together.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 462--465
+Underfull \hbox (badness 10000) in paragraph at lines 430--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
 [17]
-<figures/segment.pdf, id=176, 1806.75pt x 505.89pt>
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+<figures/segment.pdf, id=180, 1806.75pt x 505.89pt>
 File: figures/segment.pdf Graphic file (type pdf)
 <use figures/segment.pdf>
-Package pdftex.def Info: figures/segment.pdf  used on input line 509.
+Package pdftex.def Info: figures/segment.pdf  used on input line 483.
 (pdftex.def)             Requested size: 456.83629pt x 127.91568pt.
 
-Overfull \hbox (21.65453pt too wide) in paragraph at lines 508--510
+Overfull \hbox (21.65453pt too wide) in paragraph at lines 482--484
  []|  [] 
  []
 
-
-Overfull \hbox (5.17429pt too wide) in paragraph at lines 518--534
+[18]
+Overfull \hbox (5.17429pt too wide) in paragraph at lines 492--508
  [][] 
  []
 
-[18 <./figures/segment.pdf>]
 
-LaTeX Warning: Reference `' on page 19 undefined on input line 544.
+LaTeX Warning: Reference `' on page 19 undefined on input line 518.
 
-
-Overfull \hbox (9.85788pt too wide) in paragraph at lines 549--553
+[19 <./figures/segment.pdf>]
+Overfull \hbox (9.85788pt too wide) in paragraph at lines 523--527
 \T1/cmr/m/n/10.95 investor-account-day is de-ter-mined by the re-turn since pur
 -chase of stock $\OML/cmm/m/it/10.95 i$ \T1/cmr/m/n/10.95 ($\OML/cmm/m/it/10.95
  Return[]$\T1/cmr/m/n/10.95 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--553
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 582.
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+ []
+
+[20]
+
+LaTeX Warning: Reference `' on page 21 undefined on input line 556.
 
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 582.
+LaTeX Warning: Reference `' on page 21 undefined on input line 556.
 
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 583.
+LaTeX Warning: Reference `' on page 21 undefined on input line 557.
 
-[20] [21]
-Overfull \hbox (46.72346pt too wide) in paragraph at lines 599--599
+[21]
+Overfull \hbox (46.72346pt too wide) in paragraph at lines 573--573
 []\T1/cmr/bx/n/14.4 Literature Re-view by Ben-David and Hir-sh-leifer
  []
 
 
-Overfull \hbox (77.64066pt too wide) in paragraph at lines 614--646
+Overfull \hbox (77.64066pt too wide) in paragraph at lines 588--620
  [][] 
  []
 
-<figures/barc_holding_days_daily_NG_NL.pdf, id=199, 1084.05pt x 505.89pt>
+<figures/barc_holding_days_daily_NG_NL.pdf, id=202, 1084.05pt x 505.89pt>
 File: figures/barc_holding_days_daily_NG_NL.pdf Graphic file (type pdf)
 <use figures/barc_holding_days_daily_NG_NL.pdf>
 Package pdftex.def Info: figures/barc_holding_days_daily_NG_NL.pdf  used on inp
-ut line 653.
+ut line 627.
 (pdftex.def)             Requested size: 304.55945pt x 142.12682pt.
 [22
 
 ]
-<figures/return_dist.pdf, id=203, 1734.48pt x 578.16pt>
+<figures/return_dist.pdf, id=206, 1734.48pt x 578.16pt>
 File: figures/return_dist.pdf Graphic file (type pdf)
 <use figures/return_dist.pdf>
-Package pdftex.def Info: figures/return_dist.pdf  used on input line 669.
+Package pdftex.def Info: figures/return_dist.pdf  used on input line 643.
 (pdftex.def)             Requested size: 380.69788pt x 126.89565pt.
  [23 <./figures/barc_holding_days_daily_NG_NL.pdf> <./figures/return_dist.pdf>]
 
-Overfull \hbox (6.22153pt too wide) in paragraph at lines 675--675
+Overfull \hbox (6.22153pt too wide) in paragraph at lines 649--649
 []\T1/cmr/bx/n/14.4 More De-tails of Con-di-tion-ing on Sell-Days 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
+Underfull \hbox (badness 10000) in paragraph at lines 654--655
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
-<figures/barc_ABC_NG1_NL1.pdf, id=218, 1300.86pt x 505.89pt>
+<figures/barc_ABC_NG1_NL1.pdf, id=221, 1300.86pt x 505.89pt>
 File: figures/barc_ABC_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_ABC_NG1_NL1.pdf>
-Package pdftex.def Info: figures/barc_ABC_NG1_NL1.pdf  used on input line 736.
+Package pdftex.def Info: figures/barc_ABC_NG1_NL1.pdf  used on input line 710.
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
 [24
 
 ]
-<figures/barc_B12_NG1_NL1.pdf, id=222, 1300.86pt x 505.89pt>
+<figures/barc_B12_NG1_NL1.pdf, id=225, 1300.86pt x 505.89pt>
 File: figures/barc_B12_NG1_NL1.pdf Graphic file (type pdf)
 <use figures/barc_B12_NG1_NL1.pdf>
-Package pdftex.def Info: figures/barc_B12_NG1_NL1.pdf  used on input line 743.
+Package pdftex.def Info: figures/barc_B12_NG1_NL1.pdf  used on input line 717.
 (pdftex.def)             Requested size: 380.69788pt x 148.04749pt.
  [25 <./figures/barc_ABC_NG1_NL1.pdf> <./figures/barc_B12_NG1_NL1.pdf>]
 (./dissecting_disposition_effect.bbl) [26] (./dissecting_disposition_effect.aux
@@ -1106,10 +1131,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14137 strings out of 492982
- 271730 string characters out of 6136225
- 316348 words of memory out of 5000000
- 17389 multiletter control sequences out of 15000+600000
+ 14138 strings out of 492982
+ 271743 string characters out of 6136225
+ 316357 words of memory out of 5000000
+ 17390 multiletter control sequences out of 15000+600000
  17794 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,54p,1294b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1117,32 +1142,33 @@ Here is how much of TeX's memory you used:
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c
-:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sfrm0600.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
-frm0800.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type
-1/public/cm-super/sfti1095.pfb>
-Output written on dissecting_disposition_effect.pdf (26 pages, 1308272 bytes).
+ts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c
+:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+cm-super/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+frm0600.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sfrm1728.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sfti1095.pfb>
+Output written on dissecting_disposition_effect.pdf (26 pages, 1681967 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
+ 338 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

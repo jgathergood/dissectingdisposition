@@ -335,7 +335,7 @@ Consider two lines: $y_1=a_1+b_1x$ and $y_2=a_2+b_2x$.\\
 
 \noindent
 A division of the two lines is:\\
-$y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{y_1}{y_2}= \frac{a_1+b_1x}{a_2+b_2x}= \frac{b_1}{b_2}+\frac{a_1-\frac{a_2 b_1}{b_2}}{a_2+b_2x}$\\
+$y_3 \overset{\underset{\mathrm{def}}{}}{=} \frac{a_1+b_1x}{a_2+b_2x}=\frac{b_1}{b_2}+\frac{a_1-\frac{a_2 b_1}{b_2}}{a_2+b_2x}$\\
 
 \noindent
 This means that $y_3$ is a rectangular hyperbola with asymptotes of $x=-\frac{a_2}{b_2}$ (vertical line) and $y=\frac{b_1}{b_2}$ (horizontal line). \\
@@ -343,27 +343,37 @@ This means that $y_3$ is a rectangular hyperbola with asymptotes of $x=-\frac{a_
 \noindent
 Let $(x_c, y_c)$ denote the center of the rectangular hyperbola: $(x_c, y_c) \overset{\underset{\mathrm{def}}{}}{=} (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$.\\
 \noindent
-Also, let $Z = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$. \\
-Then, $y_3= \frac{b_1}{b_2}+\frac{Z}{x+\frac{a_2}{b_2}}$.\\
+Also, let $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$. \\
+Then, $y_3= \frac{b_1}{b_2}+\frac{A}{\frac{a_2}{b_2}+x}$.\\
 
 \noindent
-This means that the sign of $Z$ determines the location of the hyperbola.
+This means that the sign of $A$ determines the location of the hyperbola.
 That is:\\
-The vertices are $(x_c+\sqrt{Z}, y_c+\sqrt{Z})$ and $(x_c-\sqrt{Z}, y_c-\sqrt{Z})$. for $A>0$ and\\
-The vertices are $(x_c-\sqrt{\mbox{-}Z}, y_c+\sqrt{\mbox{-}Z})$ and $(x_c+\sqrt{\mbox{-}Z}, y_c-\sqrt{\mbox{-}Z})$. for $Z<0$.\footnote{The distance between the center and the vertices is $\sqrt{2|Z|}$. The linear eccentricity is $2\sqrt{|Z|}$ and the eccentricity is $\sqrt{2}$. The radius of curvature at the vertices is $\sqrt{2|Z|}$. Refer https://en.wikipedia.org/wiki/Hyperbola.}\\
+The vertices are $(x_c+\sqrt{A}, y_c+\sqrt{A})$ and $(x_c-\sqrt{A}, y_c-\sqrt{A})$. for $A>0$ and\\
+The vertices are $(x_c-\sqrt{\mbox{-}A}, y_c+\sqrt{\mbox{-}A})$ and $(x_c+\sqrt{\mbox{-}A}, y_c-\sqrt{\mbox{-}A})$. for $A<0$.\footnote{The distance between the center and the vertices is $\sqrt{2|A|}$. The linear eccentricity is $2\sqrt{|A|}$ and the eccentricity is $\sqrt{2}$. The radius of curvature at the vertices is $\sqrt{2|A|}$. Refer https://en.wikipedia.org/wiki/Hyperbola.}\\
 
 \noindent
-Note that, when $Z<0$, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$. This means that the hyperbola is upward at any value of $x$. We can confirm it by  taking the first derivative of $y_3$. 
+Note that, when $A<0$, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$. This means that the hyperbola is upward at any value of $x$. We can confirm it by  taking the first derivative of $y_3$. 
 
 \noindent
 \begin{equation}
 \label{eq:deriv}
-y_3'(x)=\frac{\mbox{-}Z}{(x+\frac{a_2}{b_2})^2},~where~Z = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}.
+y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2},~where~A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}.
 \end{equation}
 
+%$y_3'(x)=\frac{\mbox{-}A}{(\frac{a_2}{b_2}+x)^2},~where~A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}$\\
 
 \noindent
-It shows that, as long as $Z<0$, the slope (i.e., the first derivative line) of $y_3$ is always positive.\\
+It shows that, as long as $A<0$, the slope (i.e., the first derivative line) of $y_3$ is always positive.\\
+
+%\noindent
+%Equation \ref{eq:deriv} indicates that:\\ 
+%(1) $y_3$ is upward anywhere when $A<0$.\\
+%(2) the slope of $y_3$ gets flatter as $|A|$ decreases.\\
+%(3) the slope of $y_3$ gets flatter as the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ increases.\\
+
+%\noindent
+%In sum, as long as $A<0$, the slope (i.e., the first derivative line) of $y_3$ is always positive. The steepness of the slope is determined by the distance between $x$ and the vertical asymptote, $\mbox{-}\frac{a_2}{b_2}$ (the denominator in Equation \ref{eq:deriv}) and the size of $A$ (the numerator in Equation \ref{eq:deriv}). Note that $A$ is fixed with given line shapes of $y_1$ and $y_2$ while the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ is sensitive to a value of $x$ even with given shapes of two lines in addition to a shape of $y_2$.\\
 
 \subsection{Division of Two Asymmetric Inverse V-shaped Probabilities}
 \label{section:division_two_inverse_v}
@@ -378,90 +388,106 @@ We denote:\\
 > $P^{sell\mbox{-}day}_{i}$ as $Y_3$.\\
 
 \noindent
-We divide the whole range of values of $x$ into many sub ranges $x_{k}, k=\{..., -2, -1, 1,2,...\}$ where a negative value of $k$ indicates all values of $x$ in $x_{k}$ are negative and a positive value of $k$ indicates all values of $x$ in $x_{k}$ are positive.
-We assume that $Y_1$ can be approximated with many lines, $y_{1(k)}$ corresponding to $x_k, k=\{..., -2, -1, 1,2,...\}$. Note that $y_{1(-1)}$ represents a fitted line for a range of negative values of $x$ closest to $x=0$ and $y_{1(1)}$ represents a fitted line for a range of positive values of $x$ closest to $x=0$.
-Similarly, we assume that $Y_2$ can be approximated with many lines, $y_{2(k)}$ corresponding to $x_k, k=\{..., -2, -1, 1,2,...\}$. Finally, We denote a division of two lines, $\frac{y_{1(k)}}{y_{2(k)}}$, as $y_{3(k)}$.\\
+Specifically, we assume that $Y_1$ and $Y_2$ can be approximated with many lines, $y^i_1$, $i=\{1,2,..\}$ and $y^j_2$, $j=\{1,2,..\}$, respectively.
+To make the notations simple, for a given small range of $x$, without specifying $i$ and $j$, we denote a corresponding fitted line on $Y_1$ and $Y_2$ as $y_1(=a_1+b_1x)$ and $y_2(=a_2+b_2x)$, respectively, and denote a corresponding part of $Y_3$ as $y_3$ (a part of a rectangular hyperbola).\\
 
+%\noindent
+%Note that, by construction, $y_2$ is always larger than $y_1$ (i.e., $y_2>y_1$ for $N \geq2$). This leads to $a_2>a_1$.\\
 
-An example of approximation of an inverse V-shaped probability with many lines is illustrated in the left and the middle panels of Figure \ref{figure:illustration_color}. In the example, both $Y_1$ and $Y_2$ are approximated by six lines $y_{1(k)}, k=\{-3,-2,-1,1,2,3\}$ and $y_{2(k)}, k=\{-3,-2,-1,1,2,3\}$. The right panel is a result of dividing $Y_1$ by $Y_2$.\\
+\noindent
+In the illustrative example shown in the left and the middle panels in Figure \ref{figure:illustration_color}, we approximate the upward curve in the loss domain with three lines and the downward curve in the gain domain with three lines. In each domain, the line is steeper around $x=0$ and gets flatter as $|x|$ increases (i.e., convex).\\
 
+\noindent
+First, we consider when $y_3$ is upward.\\ 
+As seen in Equation \ref{eq:deriv}, when $A<0$, $y_3$ is upward.\\
 
+\noindent
+In the loss domain, $b_1>0$ and $b_2>0$.\\
+Thus $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}<0$ is satisfied only when  $\frac{b_2}{a_2} < \frac{b_1}{a_1}$.\\
+
+\noindent
+Conversely, in the gain domain, $b_1<0$ and $b_2<0$.\\
+Thus, $A = \frac{a_1-\frac{a_2 b_1}{b_2}}{b_2}<0$ is satisfied only when $\frac{b_2}{a_2} < \frac{b_1}{a_1}$.\\
+
+\noindent
+Therefore, regardless of a value of $x$, the condition to make $y_3$ upward is $\frac{b_2}{a_2} < \frac{b_1}{a_1}$  (Condition 1).\\
+
+\noindent
+When Condition 1 is met, the rectangular hyperbola, $y_3$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_2}{b_2}, \frac{b_1}{b_2})$, and thus, is upward anywhere.\\
+
+\noindent
+In addition, because $y_2$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the rectangular hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding branch of $y_3$ locates lower-right of the center (the fourth quadrant).\footnote{The $x$-intercept of the rectangular hyperbola is $x=-\frac{a_1}{b_1}$.}
+Similarly, in the gain domain, $x$ should be less than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the rectangular hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding branch of $y_3$ locates upper-left of the center (the second quadrant).\\ 
+
+\noindent
+\textbf{Condition 1}: $\frac{b_2}{a_2} < \frac{b_1}{a_1}$ for $y_1$ and a corresponding $y_2$.\\
+(Condition 1 is for making the curve of each $y_3$ upward.)\\
+
+\noindent
+A division of two lines resulting in a part of a rectangular hyperbola is illustrated in Figure \ref{figure:illustration_hyperbola}. In each column, the blue line divided by the red line in the top panel results in the colored part of the rectangular hyperbola in the bottom panel. The colored part in the bottom panels corresponds to the same-colored curve in the right panel of Figure \ref{figure:illustration_color}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.1\columnwidth]{illustration_color.pdf}
+	\includegraphics[width=0.9\columnwidth]{illustration_color.pdf}
 	\caption{\small Illustration: An asymmetric inverse V-shape divided by an oppositely asymmetric inverse V-shape leading to a step-like shape. The colored parts in the right panel corresponds to the same-colored parts in the bottom panels of Figure \ref{figure:illustration_hyperbola}.}
 	\label{figure:illustration_color}
 \end{figure}
 
-\vspace*{1cm}
-
-In addition, Figure \ref{figure:illustration_hyperbola} illustrates how the division of two lines leads to a part of a hyperbola.
-In each column, the blue line divided by the red line in the top panel results in the colored part of the rectangular hyperbola in the bottom panel. The colored part in the bottom panels corresponds to the same-colored curve in the right panel of Figure \ref{figure:illustration_color}.
-Note that, because $Y_1$ and $Y_2$ are probabilities, $a_{1(k)}>0$ and $a_{2(k)}>0$. Also, the inverse V-shape for both $Y_1$ and $Y_2$ means that $b_{1(k)} > 0$ and $b_{2(k)} > 0$ for $x \leq 0$, and $b_{1(k)} < 0$ and $b_{2(k)} < 0$ for $x > 0$.\\
 
 \begin{figure}[H]
 	\centering
 	\hspace*{-2cm} 
 	\includegraphics[width=1.4\columnwidth]{illustration_together.pdf}
-	\caption{\small Illustration: Division of two asymmetric inverse V-shaped curve approximated as a joint of many lines. The blue line divided by the red line in the top panels leads to the colored parts of the curve in the bottom panels. The colored parts in the bottom panels corresponds to the same-colored parts in the right panel of Figure \ref{figure:illustration_color}. In the inside-figure texts, the $(k)$ notations are excluded for simplicity.}
+	\caption{\small Illustration: Division of two asymmetric inverse V-shaped curve approximated as a joint of many lines. The blue line divided by the red line in the top panels leads to the colored parts of the curve in the bottom panels. The colored parts in the bottom panels corresponds to the same-colored parts in the right panel of Figure \ref{figure:illustration_color}.}
 	\label{figure:illustration_hyperbola}
 \end{figure}
 
-\subsection{Conditions for Division of Two Inverse V-Shaped Probability leading to a Step-Like Shape}
+\noindent
+The discussion above shows that the curve of $y_3$ as a part of a rectangular hyperbola is upward when $\frac{b_2}{a_2}<\frac{b_1}{a_1}$ (i.e., $A<0$). That is, within each $y_3$, the curve is always upward if Condition 1 ($\frac{b_2}{a_2}<\frac{b_1}{a_1}$) is met.
 
-First, we consider a condition for $y_{3(k)}$ being upward.\\ 
-As seen in Equation \ref{eq:deriv}, when $Z<0$, $y_{3(k)}$ is upward. Equation \ref{eq:deriv} can be expanded as:\\
-
-\begin{equation}
-Z=\frac{a_{1(k)}-\frac{a_{2(k)} b_{1(k)}}{b_{2(k)}}}{b_{2(k)}} =
-\frac{\frac{a_{1(k)}}{b_{1(k)}}-\frac{a_{2(k)}}{b_{2(k)}}}{\frac{b_{2(k)}}{b_{1(k)}}}
-\label{eq:expand_Z}
-\end{equation}
-
-
-Because $b_{1(k)}>0$ and $b_{2(k)}>0$ for $x \leq 0$ and $b_{1(k)}<0$ and $b_{2(k)}<0$ for $x > 0$, the denominator of Equation \ref{eq:expand_Z} is always positive. Thus, the condition for $Z<0$ is $\mbox{-}\frac{b_{2(k)}}{a_{2(k)}} < \mbox{-}\frac{b_{1(k)}}{a_{1(k)}}$  (Condition 1). Note that $\mbox{-}\frac{b_{1(k)}}{a_{1(k)}}$ and $\mbox{-}\frac{b_{2(h)}}{a_{2(h)}}$ are the x-intercept of $y_{1(k)}$ and $y_{2(h)}$, respectively.\\
+In addition, Figure \ref{figure:illustration_hyperbola} shows that, in the loss domain, the green curve is much steeper than the purple curve, and similarly, in the gain domain, the orange curve is much steeper than the light-blue curve. That is, across $y_3$s in each domain, the slope of $y_3$ tends to be flatter as a corresponding $x$ range gets far from $x=0$.
+In other words, $Y_3$ gets flatter as $|x|$ increases in both domains. \\
 
 \noindent
-\textbf{Condition 1}: $\mbox{-}\frac{b_{2(k)}}{a_{2(k)}} < \mbox{-}\frac{b_{1(k)}}{a_{1(k)}}$ for $y_{3(k)}$ being upward.\\
-
-Geometrically, Condition 1 means that the x-intercept of $y_{2(k)}$ is more far from $x=0$ than the x-intercept of $y_{1(k)}$ for $x \leq0$, and conversely, the x-intercept of $y_{1(k)}$ is more far from $x=0$ than the x-intercept of $y_{2(k)}$ for $x>0$.\\  
-
-Further, when Condition 1 is met, the rectangular hyperbola, $y_{3(k)}$, locates upper-left and lower-right of the center, $(x_c, y_c) = (-\frac{a_{2(k)}}{b_{2(k)}}, \frac{b_{1(k)}}{b_{2(k)}})$, and thus, is upward anywhere.
-In addition, because $y_{2(k)}$ is a probability, it should not be negative. Therefore, in the loss domain, $x$ should be greater than the $x$-intercept of $y_{2(k)}$, $-\frac{a_2}{b_2}$, which is the vertical asymptote of the rectangular hyperbola. Thus when Condition 1 is met for $x<0$, the corresponding branch of $y_{3(k)}$ locates lower-right of the center (the fourth quadrant).\footnote{The $x$-intercept of the rectangular hyperbola is $x=-\frac{a_{1(k)}}{b_{1(k)}}$.}
-Similarly, in the gain domain, $x$ should be less than the $x$-intercept of $y_2$, $-\frac{a_2}{b_2}$, which is vertical asymptote of the rectangular hyperbola. Thus when Condition 1 is met for $x>0$, the corresponding branch of $y_{3(k)}$ locates upper-left of the center (the second quadrant). Refer Figure \ref{figure:illustration_hyperbola}.\\ 
-
-
-
-Next, we consider what determines the steepness of $y_{3(k)}$. The denominator Equation \ref{eq:deriv}, $x+\frac{a_{2(k)}}{b_{2(k)}}$, indicates that $y_{3(k)}$ gets steeper as the distance between $x$ and the x-intercept of $y_{2(k)}$ decreases. This reflects the fact that a hyperbola, $y_{3(k)}$, gets steeper as $x$ gets closer to the vertical asymptote. 
-
-The numerator of Equation \ref{eq:deriv} is expanded to Equation \ref{eq:expand_Z}. The numerator of \ref{eq:expand_Z} indicates that $Z$ gets more negative as the distance of x-intercepts of two lines, $-\frac{a_{2(k)}}{b_{2(k)}}$ and $-\frac{a_{1(k)}}{b_{1(k)}}$ gets larger. 
-Therefore, for $x \leq 0$, the curve of $Y_3$ tends to be flatter as $|x|$ increases when $Y_1$ is more convex than $Y_2$. Conversely, for $x>0$, the curve of $Y_3$ tends to be flatter as $|x|$ increases when $Y_2$ is more convex than $Y_1$. Note that, when both $Y_1$ and $Y_2$ are convex, the denominator of \ref{eq:expand_Z} tends to decreases as $|x|$ increases.  
-
+As seen in the middle panel of Figure \ref{figure:illustration_color}, $Y_2$ is convex both in the gain and the loss domains. Thus the $x$-intercept of each fitted line, $y_2$, gets far from $x=0$, as a range of $x$, which the fitted line corresponds to, gets far from $x=0$. 
+Let $x_k$ denote a value of $x$ at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines).
+Since the $x$-intercept of $y_2$ is a vertical asymptote of the corresponding $y_3$, the distance between the vertical asymptote and $x_k$ is larger for $y_3$ corresponding to a range of $x$ which is far from $x=0$. 
+%This means that, at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines on $Y_2$), the distance between $x$ for the kink point and $\mbox{-}\frac{a_2}{b_2}$ jumps up.
  
 Branches of two rectangular hyperbolas which have a vertical asymptote and locate in the same quadrant have at most two intersections in the quadrant. 
 It can be geometrically said that, at an intersection (or one closer to the asymptotes in the case of two intersections) of such branches of two rectangular hyperbolas, one having a larger horizontal distance between its vertical asymptote and the intersection should be flatter than the other. Thus, the slope of $Y_3$ gets flatter when $x$ passes each kink point from the origin as long as $Y_2$ is convex.
-
-Note that, within each rectangular hyperbola $y_3$, the curve gets steeper as $|x|$ increases. This is due to the shape of rectangular hyperbola with negative $Z$. However, given that the range of $x$ for each $y_3$ is small, the change in the slope within $y_3$ is visually not large (see the right panel of Figure \ref{figure:illustration_color}).\\    
+%The larger the difference in the slope of two adjacent $y_2$s the more the difference in the slope of corresponding $y_3$s at $x_k$. Therefore, the more convex the curve of $Y_2$ in each domain the more likely the curve of $Y_3$ gets flatter as $|x|$ increases. 
+Note that, within each rectangular hyperbola $y_3$, the curve gets steeper as $|x|$ increases. This is due to the shape of rectangular hyperbola with negative $A$. However, given that the range of $x$ for each $y_3$ is small, the change in the slope within $y_3$ is visually not large (see the right panel of Figure \ref{figure:illustration_color}).\\    
 
 \noindent
-\textbf{Condition 2}: .\\
+\textbf{Condition 2}: $Y_2$ is convex in each of the gain and the loss domains.\\
+(Condition 2 is for making the curve of $Y_3$ as a joint of many $y_3$s flatter as $|x|$ increases.)\\
 
 If Condition 1 is met for each of $y_3$, $Y_3$ is upward. If Condition 2 is met, $Y_3$ is getting flatter as $|x|$ increase. Therefore, if both conditions are met, $Y_3$ is upward around $x=0$ and becomes flatter as $x$ decreases in the loss domain or increases in the gain domain. In the case that a degree of the flattening of $Y_3$ is large, $Y_3$ becomes close to a step-like shape.\\
 
+
+
+
+%\noindent
+%As seen in the middle panel of Figure \ref{figure:illustration_color}, $Y_2$ is convex from the peak at $x=0$ to either of negative or positive side. 
+%Thus the $x$-intercept of a fitted line, $y_2$, gets far from the origin, $(x, y)=(0, 0)$, as a range of $x$, which the fitted line corresponds to, gets far from the origin. This means that, at a kink point of $Y_2$ (i.e., a joint of two adjacent fitted lines on $Y_2$), the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ jumps up. (Note that, within a range of $x$ which one fitted line corresponds to, the distance gradually decreases as $|x|$ increases.)\\
+
+%\noindent
+%Focusing on the denominator in Equation \ref{eq:deriv}, $y_3$ gets flatter as the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ (the $x$-intercept of $y_2$ or the vertical asymptote of $y_3$) increases. Thus, given that $Y_2$ is convex in both domains, $Y_3$ gets flatter when a value of $x$ crosses a kink point of $Y_2$ from the origin.\footnote{Consider the opposite case. If $Y_2$ were concave rather than convex, at each kink point, $-\frac{a_2}{b_2}$ would get closer to the origin as a corresponding range of $x$ gets far from the origin, and thus, the distance between $x$ and $\mbox{-}\frac{a_2}{b_2}$ would get smaller. This leads to $Y_3$ getting steeper as $|x|$ increases, other things being equal.} 
+
 Seeing it conversely, $Y_3$ tends to be steeply upward around zero if the fitted line, $y_2$, closest to the origin in either side is steep.
 
+%\noindent
+%In addition, Equation \ref{eq:deriv} shows that $y_3$ gets flatter as the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ decreases.  The convexity in $y_1$ and $y_2$ seen in the left and middle panels of Figure \ref{figure:illustration_color} indicates that both $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ get smaller in the absolute term as $|x|$ increases. This leads to the difference between $\frac{b_1}{a_1}$ and $\frac{b_2}{a_2}$ getting smaller as $|x|$ increases. Thus, $y_3$ is more likely to be flatter as $|x|$ increases when $y_1$ and $y_2$ are convex both in the loss and the gain domains.\\
 
+%\noindent
+%Two things together, the condition for $y_3$ to be flatter as $|x|$ increases is that $y_1$ and $y_2$ are convex both %in the loss and the gain domains (Condition 2). \\
 
 \subsection{Connecting to the Empirical Findings}
 \label{section:emp_cond}
 In this section, we examine whether conditions shown in the previous section are met in the empirical data.
 
 \subsubsection{Visual Inspection}
-
-Condition 1 can be re-write as
-$\frac{b_{2(k)}}{a_{2(k)}} < \frac{b_{1(k)}}{a_{1(k)}}$.\\
-
 Condition 1 means that, when separately plotting the two lines, $y_1$ and $y_2$, with a free y-scale ranging from 0 to $a_1$ or $a_2$, the slope of the line is visually steeper for $y_1$ than for $y_2$ in the loss domain and is visually negatively steeper for $y_2$ than for $y_1$ in the gain domain. 
 
 According to a visual inspection, Condition 1 seems to be met in the loss domain, particularly in the region of small losses. (Compare Figure \ref{figure:prop_NG1NL1} (as $y_1=a_1+b_1x$) with the corresponding part of Figure \ref{figure:prop_sell_day_NG1NL1} (as $y_2=a_2+b_2x$).) This leads to the upward curve in the region of small losses in Figure \ref{figure:prop_sell_days_NG1NL1} (as $y_3$).
